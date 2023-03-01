@@ -30,12 +30,11 @@ def update_choices(user_c,coz_c):
     coz_choices.append(coz_c)
 
 def negotiation_scenario(robot: cozmo.robot.Robot, f):
-    global user_choices,coz_choices,exp_coz,exp_user
+    global user_choices,coz_choices,exp_coz,exp_user,itr_maze
     robot.say_text("Willing to contribute explosives?")
     ch=input("Enter your choice: ").lower()
     logging.info("User's choice on clearing the obstacle: "+ ch)
-    logging.info("Number of explosives in the beginning (User) "+ exp_user)
-    logging.info("Number of explosives in the beginning (Cozmo) "+ exp_coz)
+
     #logging here
     if ch=="yes":
         
@@ -46,8 +45,8 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
             exp_user= exp_user-cost/2
             update_choices('Y','Y')
             logging.info("Choices made for clearing obstacle:- "+'User: Y'+' Cozmo: Y')
-            logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ exp_user)
-            logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ exp_coz)
+            logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
+            logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
             itr_maze=itr_maze + 1
             return('R')
             
@@ -60,8 +59,8 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                 exp_user= exp_user-cost/2
                 update_choices('Y','Y')
                 logging.info("Choices made for clearing obstacle:- "+'User: Y'+' Cozmo: Y')
-                logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ exp_user)
-                logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ exp_coz)
+                logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
+                logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                 itr_maze=itr_maze + 1
                 return('R')
                 #logging here
@@ -72,8 +71,8 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     exp_user=exp_user-cost
                     update_choices('Y','Y')
                     logging.info("Choices made for clearing obstacle:- "+'User: Y'+' Cozmo: Y')
-                    logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ exp_user)
-                    logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ exp_coz)
+                    logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
+                    logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                     itr_maze=itr_maze + 1
                     return('R')
                     #logging here         
@@ -82,8 +81,8 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     exp_user=exp_user-cost
                     update_choices('Y','N')
                     logging.info("Choices made for clearing obstacle:- "+'User: Y'+' Cozmo: N')
-                    logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ exp_user)
-                    logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ exp_coz)
+                    logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
+                    logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                     itr_maze=itr_maze + 1 
                     return('B')
                     #logging here 
@@ -93,8 +92,8 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
             exp_coz=exp_coz-cost
             update_choices('N','Y')
             logging.info("Choices made for clearing obstacle:- "+'User: N'+' Cozmo: Y')
-            logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ exp_user)
-            logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ exp_coz)
+            logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
+            logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
             itr_maze=itr_maze + 1
             return('B')
             #logging here             
@@ -105,8 +104,8 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                 exp_coz=exp_coz-cost
                 update_choices('N','Y')
                 logging.info("Choices made for clearing obstacle:- "+'User: N'+' Cozmo: Y')
-                logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ exp_user)
-                logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ exp_coz)
+                logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
+                logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                 itr_maze=itr_maze + 1
                 return('B')
                 #logging here
@@ -116,8 +115,8 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     exp_user=exp_user-cost
                     update_choices('N','Y')
                     logging.info("Choices made for clearing obstacle:- "+'User: N'+' Cozmo: Y')
-                    logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ exp_user)
-                    logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ exp_coz)
+                    logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
+                    logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                     itr_maze=itr_maze + 1
                     return('B')
                     #logging here         
@@ -126,8 +125,8 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     exp_user=exp_user-cost
                     update_choices('N','N')
                     logging.info("Choices made for clearing obstacle:- "+'User: N'+' Cozmo: N')
-                    logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ exp_user)
-                    logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ exp_coz)
+                    logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
+                    logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                     itr_maze=itr_maze + 1
                     return('P')
                     #logging here
@@ -162,7 +161,7 @@ def find_and_displace_cube(robot: cozmo.robot.Robot):
 
     print("Yay, found cube")
 
-    cube.set_lights(cozmo.lights.green_light.flash())
+    #cube.set_lights(cozmo.lights.green_light.flash())
 
     anim = robot.play_anim_trigger(cozmo.anim.Triggers.BlockReact)
     anim.wait_for_completed()
@@ -180,8 +179,8 @@ def find_and_displace_cube(robot: cozmo.robot.Robot):
     result = action.wait_for_completed(timeout=30)
     print("got action result", result)
 
-    anim = robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin)
-    cube.set_light_corners(None, None, None, None)
+    anim = robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True)
+    #cube.set_light_corners(None, None, None, None)
     anim.wait_for_completed()
     robot.turn_in_place(degrees(-90)).wait_for_completed()
 
@@ -192,6 +191,8 @@ def cozmo_main(robot: cozmo.robot.Robot):
     robot.play_anim_trigger(cozmo.anim.Triggers.NothingToDoBoredIdle, ignore_body_track=True, in_parallel=True).wait_for_completed()
     robot.drive_straight(distance_mm(dist), speed_mmps(50)).wait_for_completed()
     robot.play_anim_trigger(cozmo.anim.Triggers.CozmoSaysGetIn, ignore_body_track=True, in_parallel=True).wait_for_completed()
+    logging.info("Number of explosives in the beginning (User) "+ "{0}".format(exp_user))
+    logging.info("Number of explosives in the beginning (Cozmo) "+ "{0}".format(exp_coz))
     for i in range(0,3):
         
         outcome=negotiation_scenario(robot, flag)
