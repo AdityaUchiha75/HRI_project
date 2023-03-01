@@ -1,0 +1,21 @@
+28-Feb-23 14:05:29 - This is an info message
+28-Feb-23 14:05:32 - Condidion set: 2
+28-Feb-23 14:05:32 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+28-Feb-23 14:05:32 - Found robot id=1
+28-Feb-23 14:05:32 - Connected to Android device serial=HA1EVA5H
+28-Feb-23 14:05:32 - Robot id=1 serial=45a2a91e initialized OK
+28-Feb-23 14:05:48 - User's choice on clearing the obstacle: no
+28-Feb-23 14:05:51 - Choices made for clearing obstacle:- User: NCozmo: Y
+28-Feb-23 14:05:51 - Outcome based on the choice: Betrayal
+28-Feb-23 14:06:03 - Sending pickup object request for object=<LightCube object_id=3 battery=94% pose=<Pose <Position x: 225.82 y: 11.98 z: 22.53> <Quaternion q0: 0.70 q1: -0.00 q2: 0.00 q3: 0.71 (angle_z: <Angle 1.59 radians (91.28 degrees)>)> origin_id=3> is_visible=False>
+28-Feb-23 14:06:15 - Sending place down here request for object=<LightCube object_id=3 battery=96% pose=<Pose <Position x: 224.05 y: 12.65 z: 20.24> <Quaternion q0: -0.69 q1: 0.00 q2: 0.00 q3: -0.72 (angle_z: <Angle 1.61 radians (92.08 degrees)>)> origin_id=3> is_visible=False>
+28-Feb-23 14:06:51 - User's choice on clearing the obstacle: yes
+28-Feb-23 14:06:55 - Choices made for clearing obstacle:- User: YCozmo: N
+28-Feb-23 14:06:55 - Outcome based on the choice: Betrayal
+28-Feb-23 14:07:53 - User's choice on clearing the obstacle: no
+28-Feb-23 14:07:55 - Choices made for clearing obstacle:- User: NCozmo: Y
+28-Feb-23 14:07:55 - Outcome based on the choice: Betrayal
+28-Feb-23 14:08:02 - Sending pickup object request for object=<LightCube object_id=3 battery=84% pose=<Pose <Position x: 477.00 y: 342.95 z: 22.08> <Quaternion q0: 0.98 q1: 0.00 q2: -0.00 q3: -0.21 (angle_z: <Angle -0.41 radians (-23.69 degrees)>)> origin_id=3> is_visible=True>
+28-Feb-23 14:08:11 - Sending place down here request for object=<LightCube object_id=3 battery=94% pose=<Pose <Position x: 478.20 y: 340.08 z: 20.03> <Quaternion q0: 0.98 q1: 0.00 q2: -0.00 q3: -0.21 (angle_z: <Angle -0.42 radians (-24.05 degrees)>)> origin_id=3> is_visible=False>
+28-Feb-23 14:08:32 - Shutting down connection
+28-Feb-23 14:08:32 - Android serial=HA1EVA5H disconnected.
