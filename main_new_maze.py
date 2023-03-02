@@ -10,8 +10,8 @@ logging.basicConfig(filename='Log/coz.log', filemode='a', format='%(asctime)s - 
 logging.info("\n")
 
 #Variables 
-exp_coz=2
-exp_user=2
+exp_coz=6
+exp_user=6
 user_choices=[]
 coz_choices=[]
 cost=2
@@ -33,13 +33,16 @@ def update_choices(user_c,coz_c):
 
 def negotiation_scenario(robot: cozmo.robot.Robot, f):
     global user_choices,coz_choices,exp_coz,exp_user,itr_maze
-    robot.say_text("Are you willing to contribute explosives?")
+    robot.say_text("Shortcut found, do you want to proceed?")
     ch=input("Enter your choice: ").lower()
-    logging.info("User's choice on clearing the obstacle: "+ ch)
-
+    logging.info("User's choice on taking shortcut: "+ ch)
+    robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabThinking, ignore_body_track=True).wait_for_completed()
+    robot.say_text("Are you willing to contribute explosives?")
+    ch1=input("Enter your choice: ").lower()
+    robot.play_anim_trigger(cozmo.anim.Triggers.PatternGuessNewIdea, ignore_body_track=True).wait_for_completed()
+    logging.info("User's choice on taking shortcut: "+ ch1)
     #logging here
-    if ch=="yes":
-        
+    if ch=="yes" and ch1=="yes":
         if f=='1':
             robot.say_text("Yaayy!").wait_for_completed() #Reward
             robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True).wait_for_completed()
@@ -88,7 +91,7 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     itr_maze=itr_maze + 1 
                     return('B')
                     #logging here 
-    else: #user said no
+    elif ch=="yes" and ch1 == "no": #user said no to explosives
         if f=='1':
             robot.say_text("Argh!").wait_for_completed() #Betrayal - Cozmo decides to be the sucker
             exp_coz=exp_coz-cost
@@ -132,6 +135,9 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     itr_maze=itr_maze + 1
                     return('P')
                     #logging here
+    else:
+        #bot reacts angrily?
+        robot.say_text("Pissed off!").wait_for_completed()
 
 
 #Navigation schema
