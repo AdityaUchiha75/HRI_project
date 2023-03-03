@@ -33,16 +33,13 @@ def update_choices(user_c,coz_c):
 
 def negotiation_scenario(robot: cozmo.robot.Robot, f):
     global user_choices,coz_choices,exp_coz,exp_user,itr_maze
-    robot.say_text("Shortcut found, do you want to proceed?")
-    ch=input("Enter your choice: ").lower()
-    logging.info("User's choice on taking shortcut: "+ ch)
-    robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabThinking, ignore_body_track=True).wait_for_completed()
     robot.say_text("Are you willing to contribute explosives?")
-    ch1=input("Enter your choice: ").lower()
-    robot.play_anim_trigger(cozmo.anim.Triggers.PatternGuessNewIdea, ignore_body_track=True).wait_for_completed()
-    logging.info("User's choice on taking shortcut: "+ ch1)
+    ch=input("Enter your choice: ").lower()
+    logging.info("User's choice on clearing the obstacle: "+ ch)
+
     #logging here
-    if ch=="yes" and ch1=="yes":
+    if ch=="yes":
+        
         if f=='1':
             robot.say_text("Yaayy!").wait_for_completed() #Reward
             robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True).wait_for_completed()
@@ -89,9 +86,9 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
                     logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                     itr_maze=itr_maze + 1 
-                    return('B_U')
+                    return('B')
                     #logging here 
-    elif ch=="yes" and ch1 == "no": #user said no to explosives
+    else: #user said no
         if f=='1':
             robot.say_text("Argh!").wait_for_completed() #Betrayal - Cozmo decides to be the sucker
             exp_coz=exp_coz-cost
@@ -100,7 +97,7 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
             logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
             logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
             itr_maze=itr_maze + 1
-            return('B_C')
+            return('B')
             #logging here             
         else:
             if len(user_choices)==0:
@@ -112,7 +109,7 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                 logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
                 logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                 itr_maze=itr_maze + 1
-                return('B_C')
+                return('B')
                 #logging here
             else:
                 if user_choices[-1]=='Y':
@@ -123,7 +120,7 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     logging.info("Number of explosives after obstacle {0} (User) ".format(itr_maze)+ "{0}".format(exp_user))
                     logging.info("Number of explosives after obstacle {0} (Cozmo) ".format(itr_maze)+ "{0}".format(exp_coz))
                     itr_maze=itr_maze + 1
-                    return('B_C')
+                    return('B')
                     #logging here         
                 else:
                     robot.say_text("No!").wait_for_completed() #Punishment - Disagreement, hence long route is taken
@@ -135,9 +132,6 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
                     itr_maze=itr_maze + 1
                     return('P')
                     #logging here
-    else:
-        #bot reacts angrily?
-        robot.say_text("Pissed off!").wait_for_completed()
 
 
 #Navigation schema
@@ -269,8 +263,8 @@ def cozmo_main(robot: cozmo.robot.Robot):
 
 def part1(robot: cozmo.robot.Robot):
     global flag
-    robot.drive_straight(distance_mm(200), speed_mmps(75),in_parallel=True).wait_for_completed() #first_bit
-    robot.turn_in_place(degrees(90)).wait_for_completed()
+    robot.drive_straight(distance_mm(220), speed_mmps(75),in_parallel=True).wait_for_completed() #first_bit
+    robot.turn_in_place(degrees(-90)).wait_for_completed()
     robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabScaredCozmo, ignore_body_track=True, in_parallel=True).wait_for_completed()
     out_ch=negotiation_scenario(robot, flag)
     if out_ch=='R':
@@ -281,7 +275,7 @@ def part1(robot: cozmo.robot.Robot):
         find_and_displace_cube(robot)
         robot.play_anim_trigger(cozmo.anim.Triggers.DanceMambo, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.drive_straight(distance_mm(100), speed_mmps(75)).wait_for_completed()
-        robot.turn_in_place(degrees(90)).wait_for_completed()
+        robot.turn_in_place(degrees(-90)).wait_for_completed()
         robot.drive_straight(distance_mm(150), speed_mmps(75)).wait_for_completed()
     elif out_ch=='B_C':
         logging.info("Outcome based on the choices made: "+"Betrayal")
@@ -291,7 +285,7 @@ def part1(robot: cozmo.robot.Robot):
         find_and_displace_cube(robot)
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabBored, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.drive_straight(distance_mm(100), speed_mmps(75)).wait_for_completed()
-        robot.turn_in_place(degrees(90)).wait_for_completed()
+        robot.turn_in_place(degrees(-90)).wait_for_completed()
         robot.drive_straight(distance_mm(150), speed_mmps(75)).wait_for_completed()
 
     elif out_ch=='B_U':
@@ -302,25 +296,25 @@ def part1(robot: cozmo.robot.Robot):
         find_and_displace_cube(robot)
         robot.play_anim_trigger(cozmo.anim.Triggers.DanceMambo, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.drive_straight(distance_mm(100), speed_mmps(75)).wait_for_completed()
-        robot.turn_in_place(degrees(90)).wait_for_completed()
+        robot.turn_in_place(degrees(-90)).wait_for_completed()
         robot.drive_straight(distance_mm(150), speed_mmps(75)).wait_for_completed()
 
     else:
         logging.info("Outcome based on the choices made: "+"Punishment")
         robot.play_anim_trigger(cozmo.anim.Triggers.DriveStartAngry, ignore_body_track=True, in_parallel=True).wait_for_completed()
-        robot.turn_in_place(degrees(-90)).wait_for_completed()
+        robot.turn_in_place(degrees(90)).wait_for_completed()
         robot.drive_straight(distance_mm(100), speed_mmps(75)).wait_for_completed()
-        robot.turn_in_place(degrees(90)).wait_for_completed()
+        robot.turn_in_place(degrees(-90)).wait_for_completed()
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabDejected, ignore_body_track=True, in_parallel=True).wait_for_completed()
-        robot.drive_straight(distance_mm(150), speed_mmps(75)).wait_for_completed()
-        robot.turn_in_place(degrees(90)).wait_for_completed()
+        robot.drive_straight(distance_mm(120), speed_mmps(75)).wait_for_completed()
+        robot.turn_in_place(degrees(-90)).wait_for_completed()
         robot.drive_straight(distance_mm(250), speed_mmps(75)).wait_for_completed()
         robot.play_anim_trigger(cozmo.anim.Triggers.DriveEndAngry, ignore_body_track=True, in_parallel=True).wait_for_completed()
-    robot.turn_in_place(degrees(-90)).wait_for_completed()
+    robot.turn_in_place(degrees(90)).wait_for_completed()
 
 def part2(robot: cozmo.robot.Robot):
     global flag
-    robot.drive_straight(distance_mm(100), speed_mmps(75),in_parallel=True).wait_for_completed() #first_bit
+    robot.drive_straight(distance_mm(55), speed_mmps(75),in_parallel=True).wait_for_completed() #first_bit
     robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabScaredCozmo, ignore_body_track=True, in_parallel=True).wait_for_completed()
     out_ch=negotiation_scenario(robot, flag)
     if out_ch=='R':
@@ -330,7 +324,7 @@ def part2(robot: cozmo.robot.Robot):
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabThinking, ignore_body_track=True, in_parallel=True).wait_for_completed()
         find_and_displace_cube(robot)
         robot.play_anim_trigger(cozmo.anim.Triggers.DanceMambo, ignore_body_track=True, in_parallel=True).wait_for_completed()
-        robot.drive_straight(distance_mm(200), speed_mmps(75)).wait_for_completed()
+        robot.drive_straight(distance_mm(150), speed_mmps(75)).wait_for_completed()
         
     elif out_ch=='B_C':
         logging.info("Outcome based on the choices made: "+"Betrayal")
@@ -352,32 +346,34 @@ def part2(robot: cozmo.robot.Robot):
     else:
         logging.info("Outcome based on the choices made: "+"Punishment")
         robot.play_anim_trigger(cozmo.anim.Triggers.DriveStartAngry, ignore_body_track=True, in_parallel=True).wait_for_completed()
-        robot.turn_in_place(degrees(-90)).wait_for_completed()
+        robot.turn_in_place(degrees(90)).wait_for_completed()
         robot.drive_straight(distance_mm(250), speed_mmps(75)).wait_for_completed()
-        robot.turn_in_place(degrees(90)).wait_for_completed()
-        robot.drive_straight(distance_mm(150), speed_mmps(75)).wait_for_completed()
-        robot.turn_in_place(degrees(90)).wait_for_completed()
+        robot.turn_in_place(degrees(-90)).wait_for_completed()
+        robot.drive_straight(distance_mm(120), speed_mmps(75)).wait_for_completed()
+        robot.turn_in_place(degrees(-90)).wait_for_completed()
         robot.drive_straight(distance_mm(250), speed_mmps(75)).wait_for_completed()
         robot.play_anim_trigger(cozmo.anim.Triggers.DriveEndAngry, ignore_body_track=True, in_parallel=True).wait_for_completed()
-        robot.turn_in_place(degrees(-90)).wait_for_completed()
-        robot.drive_straight(distance_mm(100), speed_mmps(75)).wait_for_completed()
+        robot.turn_in_place(degrees(90)).wait_for_completed()
+        robot.drive_straight(distance_mm(60), speed_mmps(75)).wait_for_completed()
+
 
 def part3(robot: cozmo.robot.Robot):
-    robot.drive_straight(distance_mm(70), speed_mmps(75)).wait_for_completed()
+    robot.turn_in_place(degrees(90)).wait_for_completed()
+    robot.drive_straight(distance_mm(40), speed_mmps(75)).wait_for_completed()
     robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabWhoa, ignore_body_track=True, in_parallel=True).wait_for_completed()
     #left_or_right
-    robot.turn_in_place(degrees(45)).wait_for_completed()
-    robot.drive_straight(distance_mm(40), speed_mmps(75)).wait_for_completed()
     robot.turn_in_place(degrees(-45)).wait_for_completed()
-    robot.drive_straight(distance_mm(200), speed_mmps(75)).wait_for_completed()
+    robot.drive_straight(distance_mm(20), speed_mmps(75)).wait_for_completed()
+    robot.turn_in_place(degrees(45)).wait_for_completed()
+    robot.drive_straight(distance_mm(160), speed_mmps(75)).wait_for_completed()
+    robot.turn_in_place(degrees(45)).wait_for_completed()
+    robot.drive_straight(distance_mm(20), speed_mmps(75)).wait_for_completed()
     robot.turn_in_place(degrees(-45)).wait_for_completed()
     robot.drive_straight(distance_mm(40), speed_mmps(75)).wait_for_completed()
-    robot.turn_in_place(degrees(45)).wait_for_completed()
-    robot.drive_straight(distance_mm(50), speed_mmps(75)).wait_for_completed()
-    robot.turn_in_place(degrees(90)).wait_for_completed()
+    robot.turn_in_place(degrees(-90)).wait_for_completed()
 
 def part4(robot: cozmo.robot.Robot):
-    robot.drive_straight(distance_mm(200), speed_mmps(75)).wait_for_completed()
+    robot.drive_straight(distance_mm(50), speed_mmps(75)).wait_for_completed()
     robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabScaredCozmo, ignore_body_track=True, in_parallel=True).wait_for_completed()
     out_ch=negotiation_scenario(robot, flag)
     if out_ch=='R':
@@ -409,10 +405,11 @@ def part4(robot: cozmo.robot.Robot):
 
     else:
         logging.info("Outcome based on the choices made: "+"Punishment")
+        robot.drive_straight(distance_mm(60), speed_mmps(75)).wait_for_completed()
         robot.play_anim_trigger(cozmo.anim.Triggers.DriveStartAngry, ignore_body_track=True, in_parallel=True).wait_for_completed()
-        robot.turn_in_place(degrees(90)).wait_for_completed()
-        robot.drive_straight(distance_mm(250), speed_mmps(75)).wait_for_completed()
         robot.turn_in_place(degrees(-90)).wait_for_completed()
+        robot.drive_straight(distance_mm(250), speed_mmps(75)).wait_for_completed()
+        robot.turn_in_place(degrees(90)).wait_for_completed()
         robot.drive_straight(distance_mm(150), speed_mmps(75)).wait_for_completed()
 
 
