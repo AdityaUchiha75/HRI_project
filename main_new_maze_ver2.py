@@ -10,6 +10,7 @@ logging.basicConfig(filename='Log/coz.log', filemode='a', format='%(asctime)s - 
 logging.info("\n")
 
 #Variables 
+
 exp_coz=6
 exp_user=6
 user_choices=[]
@@ -42,7 +43,7 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
         
         if f=='1':
             robot.say_text("Yaayy!").wait_for_completed() #Reward
-            robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True).wait_for_completed()
+            robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabHappy, ignore_body_track=True).wait_for_completed()
             exp_coz= exp_coz-cost/2  
             exp_user= exp_user-cost/2
             update_choices('Y','Y')
@@ -54,9 +55,9 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
             
         else:
             if len(user_choices)==0:
-                print("AYOOOO")
+                #print("AYOOOO")
                 robot.say_text("Yaay!").wait_for_completed() #Reward 
-                robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True).wait_for_completed()
+                robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabHappy, ignore_body_track=True).wait_for_completed()
                 exp_coz= exp_coz-cost/2  
                 exp_user= exp_user-cost/2
                 update_choices('Y','Y')
@@ -69,7 +70,7 @@ def negotiation_scenario(robot: cozmo.robot.Robot, f):
             else:
                 if user_choices[-1]=='Y':
                     robot.say_text("Yaayy!").wait_for_completed() #Reward
-                    robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True).wait_for_completed()
+                    robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabHappy, ignore_body_track=True).wait_for_completed()
                     exp_user=exp_user-cost
                     update_choices('Y','Y')
                     logging.info("Choices made for clearing obstacle:- "+'User: Y'+' Cozmo: Y')
@@ -253,13 +254,15 @@ def ask_to_displace_cube(robot):
 
 def mega_part(robot: cozmo.robot.Robot):
     global flag
+    #init_loc(robot)
+    #part1
     robot.drive_straight(distance_mm(340), speed_mmps(75)).wait_for_completed() #first_bit
     robot.turn_in_place(degrees(-90)).wait_for_completed()
     #replace - robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabScaredCozmo, ignore_body_track=True, in_parallel=True).wait_for_completed()
     out_ch=negotiation_scenario(robot, flag)
     if out_ch=='R':
         logging.info("Outcome based on the choices made: "+"Reward")
-        robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True, in_parallel=True).wait_for_completed()
+        
         #robot expression
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabThinking, ignore_body_track=True, in_parallel=True).wait_for_completed()
         ask_to_displace_cube(robot)
@@ -285,7 +288,7 @@ def mega_part(robot: cozmo.robot.Robot):
         #robot expression
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabConducting, ignore_body_track=True, in_parallel=True).wait_for_completed()
         ask_to_displace_cube(robot)
-        robot.play_anim_trigger(cozmo.anim.Triggers.DanceMambo, ignore_body_track=True, in_parallel=True).wait_for_completed()
+        robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabWhew, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.drive_straight(distance_mm(160), speed_mmps(75)).wait_for_completed()
         robot.turn_in_place(degrees(-90)).wait_for_completed()
         robot.drive_straight(distance_mm(280), speed_mmps(75)).wait_for_completed()
@@ -310,11 +313,11 @@ def mega_part(robot: cozmo.robot.Robot):
     out_ch=negotiation_scenario(robot, flag)
     if out_ch=='R':
         logging.info("Outcome based on the choices made: "+"Reward")
-        robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True, in_parallel=True).wait_for_completed()
+        robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabHappy, ignore_body_track=True, in_parallel=True).wait_for_completed()
         #robot expression
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabThinking, ignore_body_track=True, in_parallel=True).wait_for_completed()
         ask_to_displace_cube(robot)
-        robot.play_anim_trigger(cozmo.anim.Triggers.DanceMambo, ignore_body_track=True, in_parallel=True).wait_for_completed()
+        robot.play_anim_trigger(cozmo.anim.Triggers.CubePounceWinRound, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.drive_straight(distance_mm(290), speed_mmps(75)).wait_for_completed()
         
     elif out_ch=='B_C':
@@ -333,7 +336,7 @@ def mega_part(robot: cozmo.robot.Robot):
         #robot expression
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabConducting, ignore_body_track=True, in_parallel=True).wait_for_completed()
         ask_to_displace_cube(robot)
-        robot.play_anim_trigger(cozmo.anim.Triggers.DanceMambo, ignore_body_track=True, in_parallel=True).wait_for_completed()
+        robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabWhew, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.drive_straight(distance_mm(290), speed_mmps(75)).wait_for_completed()
     else:
         logging.info("Outcome based on the choices made: "+"Punishment")
@@ -347,7 +350,7 @@ def mega_part(robot: cozmo.robot.Robot):
         robot.drive_straight(distance_mm(360), speed_mmps(75)).wait_for_completed()
         robot.play_anim_trigger(cozmo.anim.Triggers.DriveEndAngry, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.turn_in_place(degrees(90)).wait_for_completed()
-        robot.drive_straight(distance_mm(120), speed_mmps(75)).wait_for_completed()
+        robot.drive_straight(distance_mm(100), speed_mmps(75)).wait_for_completed()
     robot.turn_in_place(degrees(90)).wait_for_completed()
     robot.drive_straight(distance_mm(20), speed_mmps(75)).wait_for_completed()
 
@@ -370,12 +373,12 @@ def mega_part(robot: cozmo.robot.Robot):
     out_ch=negotiation_scenario(robot, flag)
     if out_ch=='R':
         logging.info("Outcome based on the choices made: "+"Reward")
-        robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True, in_parallel=True).wait_for_completed()
+        robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabHappy, ignore_body_track=True, in_parallel=True).wait_for_completed()
         #robot expression
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabThinking, ignore_body_track=True, in_parallel=True).wait_for_completed()
         ask_to_displace_cube(robot)
-        robot.play_anim_trigger(cozmo.anim.Triggers.DanceMambo, ignore_body_track=True, in_parallel=True).wait_for_completed()
-        robot.drive_straight(distance_mm(300), speed_mmps(75)).wait_for_completed()
+        robot.play_anim_trigger(cozmo.anim.Triggers.CubePounceWinRound, ignore_body_track=True, in_parallel=True).wait_for_completed()
+        robot.drive_straight(distance_mm(320), speed_mmps(75)).wait_for_completed()
        
     elif out_ch=='B_C':
         logging.info("Outcome based on the choices made: "+"Betrayal")
@@ -393,7 +396,7 @@ def mega_part(robot: cozmo.robot.Robot):
         #robot expression
         robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabConducting, ignore_body_track=True, in_parallel=True).wait_for_completed()
         ask_to_displace_cube(robot)
-        robot.play_anim_trigger(cozmo.anim.Triggers.DanceMambo, ignore_body_track=True, in_parallel=True).wait_for_completed()
+        robot.play_anim_trigger(cozmo.anim.Triggers.CodeLabWhew, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.drive_straight(distance_mm(300), speed_mmps(75)).wait_for_completed()
 
     else:
@@ -401,10 +404,10 @@ def mega_part(robot: cozmo.robot.Robot):
         robot.drive_straight(distance_mm(100), speed_mmps(75)).wait_for_completed()
         robot.play_anim_trigger(cozmo.anim.Triggers.DriveStartAngry, ignore_body_track=True, in_parallel=True).wait_for_completed()
         robot.turn_in_place(degrees(-90)).wait_for_completed()
-        robot.drive_straight(distance_mm(400), speed_mmps(75)).wait_for_completed()
+        robot.drive_straight(distance_mm(380), speed_mmps(75)).wait_for_completed()
         robot.turn_in_place(degrees(90)).wait_for_completed()
         robot.drive_straight(distance_mm(150), speed_mmps(75)).wait_for_completed()
-
+    robot.play_anim_trigger(cozmo.anim.Triggers.MajorWin, ignore_body_track=True, in_parallel=True).wait_for_completed()
 cozmo.run_program(mega_part)
 #cozmo.run_program(part2)
 #cozmo.run_program(part3)
