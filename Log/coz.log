@@ -19,3 +19,1459 @@
 28-Feb-23 14:08:11 - Sending place down here request for object=<LightCube object_id=3 battery=94% pose=<Pose <Position x: 478.20 y: 340.08 z: 20.03> <Quaternion q0: 0.98 q1: 0.00 q2: -0.00 q3: -0.21 (angle_z: <Angle -0.42 radians (-24.05 degrees)>)> origin_id=3> is_visible=False>
 28-Feb-23 14:08:32 - Shutting down connection
 28-Feb-23 14:08:32 - Android serial=HA1EVA5H disconnected.
+01-Mar-23 15:28:34 - 
+
+01-Mar-23 15:28:38 - Condidion set: 1
+01-Mar-23 15:28:38 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+01-Mar-23 15:28:38 - Found robot id=1
+01-Mar-23 15:28:39 - Connected to Android device serial=HA1ETT77
+01-Mar-23 15:28:39 - Robot id=1 serial=4322cb80 initialized OK
+01-Mar-23 15:28:59 - User's choice on clearing the obstacle: yes
+01-Mar-23 15:28:59 - Shutting down connection
+01-Mar-23 15:28:59 - Android serial=HA1ETT77 disconnected.
+01-Mar-23 15:30:23 - 
+
+01-Mar-23 15:30:24 - Condidion set: 1
+01-Mar-23 15:30:25 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+01-Mar-23 15:30:25 - Found robot id=1
+01-Mar-23 15:30:25 - Connected to Android device serial=HA1ETT77
+01-Mar-23 15:30:25 - Robot id=1 serial=4322cb80 initialized OK
+01-Mar-23 15:30:26 - Object disconnected: <LightCube object_id=1 battery=Unknown pose=<Pose <Position x: 0.00 y: 0.00 z: 0.00> <Quaternion q0: 1.00 q1: 0.00 q2: 0.00 q3: 0.00 (angle_z: <Angle 0.00 radians (0.00 degrees)>)> origin_id=-1> is_visible=False>
+01-Mar-23 15:30:28 - Object connected: <LightCube object_id=1 battery=Unknown pose=<Pose <Position x: 0.00 y: 0.00 z: 0.00> <Quaternion q0: 1.00 q1: 0.00 q2: 0.00 q3: 0.00 (angle_z: <Angle 0.00 radians (0.00 degrees)>)> origin_id=-1> is_visible=False>
+01-Mar-23 15:30:44 - User's choice on clearing the obstacle: yes
+01-Mar-23 15:30:44 - Number of explosives in the beginning (User) 2
+01-Mar-23 15:30:44 - Number of explosives in the beginning (Cozmo) 2
+01-Mar-23 15:30:49 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+01-Mar-23 15:30:49 - Shutting down connection
+01-Mar-23 15:30:49 - Android serial=HA1ETT77 disconnected.
+01-Mar-23 15:31:20 - 
+
+01-Mar-23 15:31:23 - Condidion set: 1
+01-Mar-23 15:31:23 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+01-Mar-23 15:31:23 - Found robot id=1
+01-Mar-23 15:31:23 - Connected to Android device serial=HA1ETT77
+01-Mar-23 15:31:23 - Robot id=1 serial=4322cb80 initialized OK
+01-Mar-23 15:31:38 - User's choice on clearing the obstacle: yes
+01-Mar-23 15:31:38 - Number of explosives in the beginning (User) 2
+01-Mar-23 15:31:38 - Number of explosives in the beginning (Cozmo) 2
+01-Mar-23 15:31:43 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+01-Mar-23 15:31:43 - Number of explosives after obstacle 1 (User) 1.0
+01-Mar-23 15:31:43 - Number of explosives after obstacle 1 (Cozmo) 1.0
+01-Mar-23 15:31:43 - Outcome based on the choices made: Reward
+01-Mar-23 15:31:54 - Sending pickup object request for object=<LightCube object_id=3 battery=90% pose=<Pose <Position x: 469.56 y: -18.69 z: 17.80> <Quaternion q0: -0.68 q1: -0.00 q2: -0.00 q3: -0.73 (angle_z: <Angle 1.64 radians (93.91 degrees)>)> origin_id=73> is_visible=True>
+01-Mar-23 15:32:07 - Sending place down here request for object=<LightCube object_id=3 battery=100% pose=<Pose <Position x: 487.73 y: -17.90 z: 15.20> <Quaternion q0: 0.74 q1: 0.00 q2: 0.00 q3: 0.68 (angle_z: <Angle 1.49 radians (85.32 degrees)>)> origin_id=73> is_visible=False>
+01-Mar-23 15:32:58 - User's choice on clearing the obstacle: no
+01-Mar-23 15:32:58 - Number of explosives in the beginning (User) 1.0
+01-Mar-23 15:32:58 - Number of explosives in the beginning (Cozmo) 1.0
+01-Mar-23 15:33:00 - Choices made for clearing obstacle:- User: N Cozmo: Y
+01-Mar-23 15:33:00 - Number of explosives after obstacle 2 (User) 1.0
+01-Mar-23 15:33:00 - Number of explosives after obstacle 2 (Cozmo) -1.0
+01-Mar-23 15:33:00 - Outcome based on the choices made: Betrayal
+01-Mar-23 15:33:09 - Sending pickup object request for object=<LightCube object_id=2 battery=94% pose=<Pose <Position x: 1050.55 y: 107.91 z: 16.87> <Quaternion q0: 0.78 q1: 0.00 q2: -0.00 q3: -0.63 (angle_z: <Angle -1.37 radians (-78.35 degrees)>)> origin_id=73> is_visible=True>
+01-Mar-23 15:33:25 - Sending place down here request for object=<LightCube object_id=2 battery=96% pose=<Pose <Position x: 1068.59 y: 122.54 z: 18.07> <Quaternion q0: 0.66 q1: -0.00 q2: 0.00 q3: -0.75 (angle_z: <Angle -1.69 radians (-97.04 degrees)>)> origin_id=73> is_visible=False>
+01-Mar-23 15:33:59 - User's choice on clearing the obstacle: yes
+01-Mar-23 15:33:59 - Number of explosives in the beginning (User) 1.0
+01-Mar-23 15:33:59 - Number of explosives in the beginning (Cozmo) -1.0
+01-Mar-23 15:34:03 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+01-Mar-23 15:34:03 - Number of explosives after obstacle 3 (User) 0.0
+01-Mar-23 15:34:03 - Number of explosives after obstacle 3 (Cozmo) -2.0
+01-Mar-23 15:34:03 - Outcome based on the choices made: Reward
+01-Mar-23 15:34:22 - Sending pickup object request for object=<LightCube object_id=3 battery=90% pose=<Pose <Position x: 1591.93 y: 281.97 z: 15.76> <Quaternion q0: 0.84 q1: -0.00 q2: 0.00 q3: -0.54 (angle_z: <Angle -1.14 radians (-65.30 degrees)>)> origin_id=73> is_visible=True>
+01-Mar-23 15:34:36 - Sending place down here request for object=<LightCube object_id=3 battery=94% pose=<Pose <Position x: 1606.39 y: 268.45 z: 13.14> <Quaternion q0: 0.76 q1: -0.00 q2: -0.00 q3: -0.65 (angle_z: <Angle -1.43 radians (-81.72 degrees)>)> origin_id=73> is_visible=False>
+01-Mar-23 15:35:07 - Shutting down connection
+01-Mar-23 15:35:07 - Android serial=HA1ETT77 disconnected.
+01-Mar-23 15:36:23 - 
+
+01-Mar-23 15:36:25 - Condidion set: 2
+01-Mar-23 15:36:25 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+01-Mar-23 15:36:25 - Found robot id=1
+01-Mar-23 15:36:25 - Connected to Android device serial=HA1ETT77
+01-Mar-23 15:36:26 - Robot id=1 serial=4322cb80 initialized OK
+01-Mar-23 15:36:42 - User's choice on clearing the obstacle: no
+01-Mar-23 15:36:42 - Number of explosives in the beginning (User) 2
+01-Mar-23 15:36:42 - Number of explosives in the beginning (Cozmo) 2
+01-Mar-23 15:36:44 - Choices made for clearing obstacle:- User: N Cozmo: Y
+01-Mar-23 15:36:44 - Number of explosives after obstacle 1 (User) 2
+01-Mar-23 15:36:44 - Number of explosives after obstacle 1 (Cozmo) 0
+01-Mar-23 15:36:44 - Outcome based on the choices made: Betrayal
+01-Mar-23 15:36:53 - Sending pickup object request for object=<LightCube object_id=3 battery=94% pose=<Pose <Position x: 477.11 y: -62.03 z: 18.35> <Quaternion q0: 0.99 q1: 0.00 q2: 0.00 q3: -0.12 (angle_z: <Angle -0.24 radians (-13.53 degrees)>)> origin_id=77> is_visible=True>
+01-Mar-23 15:37:08 - Sending place down here request for object=<LightCube object_id=3 battery=100% pose=<Pose <Position x: 509.23 y: -58.79 z: 19.67> <Quaternion q0: 0.95 q1: 0.00 q2: -0.00 q3: -0.30 (angle_z: <Angle -0.62 radians (-35.39 degrees)>)> origin_id=77> is_visible=False>
+01-Mar-23 15:37:42 - User's choice on clearing the obstacle: no
+01-Mar-23 15:37:42 - Number of explosives in the beginning (User) 2
+01-Mar-23 15:37:42 - Number of explosives in the beginning (Cozmo) 0
+01-Mar-23 15:37:44 - Choices made for clearing obstacle:- User: N Cozmo: N
+01-Mar-23 15:37:44 - Number of explosives after obstacle 2 (User) 0
+01-Mar-23 15:37:44 - Number of explosives after obstacle 2 (Cozmo) 0
+01-Mar-23 15:37:44 - Outcome based on the choices made: Punishment
+01-Mar-23 15:38:31 - User's choice on clearing the obstacle: yes
+01-Mar-23 15:38:31 - Number of explosives in the beginning (User) 0
+01-Mar-23 15:38:31 - Number of explosives in the beginning (Cozmo) 0
+01-Mar-23 15:38:31 - Shutting down connection
+01-Mar-23 15:38:31 - Android serial=HA1ETT77 disconnected.
+03-Mar-23 13:28:23 - 
+
+03-Mar-23 13:28:27 - Condidion set: 1
+03-Mar-23 13:28:27 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:28:27 - Found robot id=1
+03-Mar-23 13:28:27 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:28:27 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:28:37 - Number of explosives in the beginning (User) 6
+03-Mar-23 13:28:37 - Number of explosives in the beginning (Cozmo) 6
+03-Mar-23 13:28:47 - User's choice on clearing the obstacle: yes
+03-Mar-23 13:28:51 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 13:28:51 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 13:28:51 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 13:28:51 - Outcome based on the choices made: Reward
+03-Mar-23 13:29:04 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:29:06 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:29:07 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:29:08 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:29:09 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:29:13 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:29:14 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:29:16 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:29:17 - Exit requested by user
+03-Mar-23 13:29:17 - Shutting down connection
+03-Mar-23 13:29:17 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:30:27 - 
+
+03-Mar-23 13:30:29 - Condidion set: 1
+03-Mar-23 13:30:29 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:30:29 - Found robot id=1
+03-Mar-23 13:30:29 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:30:29 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:30:39 - Number of explosives in the beginning (User) 6
+03-Mar-23 13:30:39 - Number of explosives in the beginning (Cozmo) 6
+03-Mar-23 13:30:53 - Exit requested by user
+03-Mar-23 13:30:53 - Shutting down connection
+03-Mar-23 13:30:53 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:31:40 - 
+
+03-Mar-23 13:31:42 - Condidion set: 1
+03-Mar-23 13:31:42 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:31:42 - Found robot id=1
+03-Mar-23 13:31:42 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:31:42 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:32:04 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:32:04 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:32:09 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:32:09 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:32:11 - Exit requested by user
+03-Mar-23 13:32:11 - Shutting down connection
+03-Mar-23 13:32:11 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:32:12 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:32:12 - Found robot id=1
+03-Mar-23 13:32:12 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:32:12 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:32:19 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:32:19 - Exit requested by user
+03-Mar-23 13:32:19 - Shutting down connection
+03-Mar-23 13:32:19 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:32:20 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:32:20 - Found robot id=1
+03-Mar-23 13:32:20 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:32:20 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:32:22 - Exit requested by user
+03-Mar-23 13:32:22 - Shutting down connection
+03-Mar-23 13:32:22 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:32:23 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:32:23 - Found robot id=1
+03-Mar-23 13:32:23 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:32:24 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:32:30 - Exit requested by user
+03-Mar-23 13:32:30 - Shutting down connection
+03-Mar-23 13:32:30 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:33:24 - 
+
+03-Mar-23 13:33:25 - Condidion set: 1
+03-Mar-23 13:33:25 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:33:25 - Found robot id=1
+03-Mar-23 13:33:25 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:33:25 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:33:35 - Exit requested by user
+03-Mar-23 13:33:35 - Shutting down connection
+03-Mar-23 13:33:35 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:33:37 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:33:37 - Found robot id=1
+03-Mar-23 13:33:37 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:33:37 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:33:43 - Exit requested by user
+03-Mar-23 13:33:43 - Shutting down connection
+03-Mar-23 13:33:43 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:33:45 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:33:45 - Found robot id=1
+03-Mar-23 13:33:45 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:33:45 - ObjectPowerLevel event received for unknown object ID 3
+03-Mar-23 13:33:45 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:33:59 - Exit requested by user
+03-Mar-23 13:33:59 - Shutting down connection
+03-Mar-23 13:33:59 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:34:00 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:34:00 - Found robot id=1
+03-Mar-23 13:34:00 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:34:00 - Exit requested by user
+03-Mar-23 13:34:00 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:34:26 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:34:26 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:34:26 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:34:27 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:34:27 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:34:27 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:34:36 - EOF received on connection
+03-Mar-23 13:34:36 - Aborting connection: Lost connection to the device
+03-Mar-23 13:34:36 - Lost connection to the device: None
+03-Mar-23 13:34:36 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:35:55 - 
+
+03-Mar-23 13:35:57 - Condidion set: 1
+03-Mar-23 13:35:57 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:35:57 - Found robot id=1
+03-Mar-23 13:35:57 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:35:57 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:36:14 - User's choice on clearing the obstacle: yes
+03-Mar-23 13:36:14 - Shutting down connection
+03-Mar-23 13:36:14 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:36:57 - 
+
+03-Mar-23 13:37:15 - 
+
+03-Mar-23 13:37:16 - Condidion set: 1
+03-Mar-23 13:37:16 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:37:16 - Found robot id=1
+03-Mar-23 13:37:16 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:37:16 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:37:27 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:37:29 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:37:30 - Exit requested by user
+03-Mar-23 13:37:30 - Shutting down connection
+03-Mar-23 13:37:30 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:37:31 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:37:31 - Found robot id=1
+03-Mar-23 13:37:31 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:37:32 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:37:34 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:37:39 - Exit requested by user
+03-Mar-23 13:37:39 - Shutting down connection
+03-Mar-23 13:37:39 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:37:40 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:37:41 - Found robot id=1
+03-Mar-23 13:37:41 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:37:41 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:37:51 - Exit requested by user
+03-Mar-23 13:37:51 - Shutting down connection
+03-Mar-23 13:37:51 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:37:52 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:37:52 - Found robot id=1
+03-Mar-23 13:37:52 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:37:52 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:37:57 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:37:58 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:37:58 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:38:00 - Shutting down connection
+03-Mar-23 13:38:00 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:38:00 - Exit requested by user
+03-Mar-23 13:38:12 - 
+
+03-Mar-23 13:38:13 - Condidion set: 1
+03-Mar-23 13:38:13 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:38:13 - Found robot id=1
+03-Mar-23 13:38:13 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:38:14 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:38:32 - User's choice on clearing the obstacle: yes
+03-Mar-23 13:38:37 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 13:38:37 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 13:38:37 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 13:38:37 - Outcome based on the choices made: Reward
+03-Mar-23 13:38:44 - Sending pickup object request for object=<LightCube object_id=2 battery=84% pose=<Pose <Position x: 247.07 y: -107.32 z: 17.79> <Quaternion q0: 0.69 q1: 0.00 q2: 0.00 q3: -0.73 (angle_z: <Angle -1.63 radians (-93.15 degrees)>)> origin_id=17> is_visible=False>
+03-Mar-23 13:38:54 - Sending place down here request for object=<LightCube object_id=2 battery=88% pose=<Pose <Position x: 270.65 y: -186.54 z: 16.27> <Quaternion q0: 0.53 q1: 0.47 q2: 0.53 q3: -0.47 (angle_z: <Angle 1.78 radians (101.84 degrees)>)> origin_id=17> is_visible=False>
+03-Mar-23 13:39:12 - Shutting down connection
+03-Mar-23 13:39:12 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:39:13 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:39:13 - Found robot id=1
+03-Mar-23 13:39:13 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:39:13 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:39:27 - User's choice on clearing the obstacle: no
+03-Mar-23 13:39:29 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 13:39:29 - Number of explosives after obstacle 2 (User) 5.0
+03-Mar-23 13:39:29 - Number of explosives after obstacle 2 (Cozmo) 3.0
+03-Mar-23 13:39:29 - Outcome based on the choices made: Punishment
+03-Mar-23 13:39:52 - Shutting down connection
+03-Mar-23 13:39:52 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:39:53 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:39:53 - Found robot id=1
+03-Mar-23 13:39:53 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:39:53 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:40:14 - Shutting down connection
+03-Mar-23 13:40:14 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:46:43 - 
+
+03-Mar-23 13:46:44 - Condidion set: 1
+03-Mar-23 13:46:44 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:46:44 - Found robot id=1
+03-Mar-23 13:46:44 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:46:44 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:46:59 - User's choice on clearing the obstacle: yes
+03-Mar-23 13:47:04 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 13:47:04 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 13:47:04 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 13:47:04 - Outcome based on the choices made: Reward
+03-Mar-23 13:48:04 - Shutting down connection
+03-Mar-23 13:48:04 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:48:05 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:48:05 - Found robot id=1
+03-Mar-23 13:48:05 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:48:05 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:48:17 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:48:18 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:48:20 - Exit requested by user
+03-Mar-23 13:48:20 - Shutting down connection
+03-Mar-23 13:48:20 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:48:21 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:48:21 - Found robot id=1
+03-Mar-23 13:48:21 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:48:21 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:48:23 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:48:25 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:48:28 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:48:32 - Exit requested by user
+03-Mar-23 13:48:32 - Shutting down connection
+03-Mar-23 13:48:32 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:48:33 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:48:33 - Found robot id=1
+03-Mar-23 13:48:33 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:48:33 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:48:38 - Exit requested by user
+03-Mar-23 13:48:38 - EOF received on connection
+03-Mar-23 13:48:38 - Aborting connection: Lost connection to the device
+03-Mar-23 13:48:38 - Lost connection to the device: None
+03-Mar-23 13:48:38 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:49:48 - 
+
+03-Mar-23 13:49:50 - Condidion set: 1
+03-Mar-23 13:49:50 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:49:50 - Found robot id=1
+03-Mar-23 13:49:50 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:49:51 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:50:09 - User's choice on clearing the obstacle: yes
+03-Mar-23 13:50:13 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 13:50:13 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 13:50:13 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 13:50:13 - Outcome based on the choices made: Reward
+03-Mar-23 13:50:21 - Sending pickup object request for object=<LightCube object_id=2 battery=94% pose=<Pose <Position x: 234.12 y: -64.02 z: 16.54> <Quaternion q0: -0.70 q1: 0.00 q2: -0.00 q3: -0.71 (angle_z: <Angle 1.59 radians (90.86 degrees)>)> origin_id=3> is_visible=True>
+03-Mar-23 13:50:32 - Sending place down here request for object=<LightCube object_id=2 battery=88% pose=<Pose <Position x: 235.61 y: -61.23 z: 15.44> <Quaternion q0: -0.70 q1: 0.00 q2: -0.00 q3: -0.72 (angle_z: <Angle 1.60 radians (91.43 degrees)>)> origin_id=3> is_visible=False>
+03-Mar-23 13:51:00 - Shutting down connection
+03-Mar-23 13:51:00 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:51:01 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:51:01 - Found robot id=1
+03-Mar-23 13:51:01 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:51:02 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:51:26 - User's choice on clearing the obstacle: no
+03-Mar-23 13:51:28 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 13:51:28 - Number of explosives after obstacle 2 (User) 5.0
+03-Mar-23 13:51:28 - Number of explosives after obstacle 2 (Cozmo) 3.0
+03-Mar-23 13:51:28 - Outcome based on the choices made: Betrayal
+03-Mar-23 13:52:15 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:52:16 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 13:52:16 - Shutting down connection
+03-Mar-23 13:52:16 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:52:18 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:52:18 - Found robot id=1
+03-Mar-23 13:52:18 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:52:18 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:52:38 - Shutting down connection
+03-Mar-23 13:52:38 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:54:38 - 
+
+03-Mar-23 13:54:40 - Condidion set: 1
+03-Mar-23 13:54:40 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:54:40 - Found robot id=1
+03-Mar-23 13:54:40 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:54:40 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:54:59 - User's choice on clearing the obstacle: yes
+03-Mar-23 13:55:03 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 13:55:03 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 13:55:03 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 13:55:03 - Outcome based on the choices made: Reward
+03-Mar-23 13:55:11 - Sending pickup object request for object=<LightCube object_id=2 battery=88% pose=<Pose <Position x: 225.57 y: -95.67 z: 16.97> <Quaternion q0: -0.73 q1: -0.00 q2: 0.00 q3: -0.69 (angle_z: <Angle 1.52 radians (86.88 degrees)>)> origin_id=7> is_visible=True>
+03-Mar-23 13:55:19 - Sending place down here request for object=<LightCube object_id=2 battery=88% pose=<Pose <Position x: 224.90 y: -112.62 z: 14.09> <Quaternion q0: -0.76 q1: -0.00 q2: 0.00 q3: -0.65 (angle_z: <Angle 1.42 radians (81.39 degrees)>)> origin_id=7> is_visible=True>
+03-Mar-23 13:55:47 - Shutting down connection
+03-Mar-23 13:55:47 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:57:24 - 
+
+03-Mar-23 13:57:26 - Condidion set: 1
+03-Mar-23 13:57:26 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:57:26 - Found robot id=1
+03-Mar-23 13:57:26 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:57:26 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:57:45 - User's choice on clearing the obstacle: yes
+03-Mar-23 13:57:50 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 13:57:50 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 13:57:50 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 13:57:50 - Outcome based on the choices made: Reward
+03-Mar-23 13:58:00 - Sending pickup object request for object=<LightCube object_id=3 battery=88% pose=<Pose <Position x: 43.72 y: -268.45 z: 4.38> <Quaternion q0: -1.00 q1: 0.00 q2: 0.00 q3: 0.04 (angle_z: <Angle -0.08 radians (-4.85 degrees)>)> origin_id=9> is_visible=False>
+03-Mar-23 13:58:14 - Sending place down here request for object=<LightCube object_id=3 battery=94% pose=<Pose <Position x: 27.92 y: -285.57 z: 15.57> <Quaternion q0: 1.00 q1: 0.00 q2: 0.00 q3: -0.03 (angle_z: <Angle -0.07 radians (-3.87 degrees)>)> origin_id=9> is_visible=False>
+03-Mar-23 13:58:43 - Shutting down connection
+03-Mar-23 13:58:43 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:58:44 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:58:44 - Found robot id=1
+03-Mar-23 13:58:44 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:58:44 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:58:57 - Exit requested by user
+03-Mar-23 13:58:57 - Shutting down connection
+03-Mar-23 13:58:57 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:58:58 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:58:58 - Found robot id=1
+03-Mar-23 13:58:58 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:58:59 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:58:59 - Exit requested by user
+03-Mar-23 13:58:59 - Shutting down connection
+03-Mar-23 13:58:59 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:59:00 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:59:00 - Found robot id=1
+03-Mar-23 13:59:00 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:59:00 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 13:59:09 - Shutting down connection
+03-Mar-23 13:59:09 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 13:59:09 - Exit requested by user
+03-Mar-23 13:59:52 - 
+
+03-Mar-23 13:59:54 - Condidion set: 1
+03-Mar-23 13:59:54 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 13:59:54 - Found robot id=1
+03-Mar-23 13:59:54 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 13:59:55 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:00:11 - User's choice on clearing the obstacle: yes
+03-Mar-23 14:00:16 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 14:00:16 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 14:00:16 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 14:00:16 - Outcome based on the choices made: Reward
+03-Mar-23 14:00:23 - Sending pickup object request for object=<LightCube object_id=2 battery=88% pose=<Pose <Position x: 243.49 y: -122.07 z: 16.17> <Quaternion q0: -0.72 q1: -0.00 q2: 0.00 q3: -0.70 (angle_z: <Angle 1.55 radians (88.65 degrees)>)> origin_id=11> is_visible=True>
+03-Mar-23 14:00:32 - Sending place down here request for object=<LightCube object_id=2 battery=80% pose=<Pose <Position x: 241.11 y: -136.56 z: 14.92> <Quaternion q0: -0.67 q1: 0.00 q2: -0.00 q3: -0.74 (angle_z: <Angle 1.67 radians (95.64 degrees)>)> origin_id=-1> is_visible=False>
+03-Mar-23 14:01:01 - Shutting down connection
+03-Mar-23 14:01:01 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:01:02 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:01:02 - Found robot id=1
+03-Mar-23 14:01:02 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:01:02 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:01:07 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:01:07 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:01:08 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:01:12 - Exit requested by user
+03-Mar-23 14:01:12 - Shutting down connection
+03-Mar-23 14:01:12 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:01:13 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:01:13 - Found robot id=1
+03-Mar-23 14:01:13 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:01:13 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:01:13 - Exit requested by user
+03-Mar-23 14:01:13 - Shutting down connection
+03-Mar-23 14:01:13 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:01:14 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:01:14 - Found robot id=1
+03-Mar-23 14:01:14 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:01:15 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:01:24 - Shutting down connection
+03-Mar-23 14:01:24 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:01:24 - Exit requested by user
+03-Mar-23 14:19:20 - 
+
+03-Mar-23 14:19:21 - Condidion set: 1
+03-Mar-23 14:19:21 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:19:21 - Found robot id=1
+03-Mar-23 14:19:21 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:19:21 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:19:41 - User's choice on clearing the obstacle: yes
+03-Mar-23 14:19:46 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 14:19:46 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 14:19:46 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 14:19:46 - Outcome based on the choices made: Reward
+03-Mar-23 14:19:53 - Sending pickup object request for object=<LightCube object_id=2 battery=80% pose=<Pose <Position x: 237.14 y: -107.71 z: 15.51> <Quaternion q0: 1.00 q1: -0.00 q2: -0.00 q3: -0.02 (angle_z: <Angle -0.03 radians (-1.74 degrees)>)> origin_id=21> is_visible=True>
+03-Mar-23 14:20:02 - Sending place down here request for object=<LightCube object_id=2 battery=74% pose=<Pose <Position x: 239.41 y: -105.38 z: 14.12> <Quaternion q0: 1.00 q1: -0.00 q2: 0.00 q3: -0.02 (angle_z: <Angle -0.04 radians (-2.37 degrees)>)> origin_id=21> is_visible=False>
+03-Mar-23 14:20:05 - Sending pickup object request for object=<LightCube object_id=2 battery=74% pose=<Pose <Position x: 289.21 y: -28.53 z: 15.42> <Quaternion q0: 0.73 q1: 0.00 q2: 0.00 q3: 0.69 (angle_z: <Angle 1.52 radians (86.89 degrees)>)> origin_id=21> is_visible=True>
+03-Mar-23 14:20:12 - Sending place down here request for object=<LightCube object_id=2 battery=78% pose=<Pose <Position x: 288.16 y: -27.04 z: 14.94> <Quaternion q0: -0.72 q1: 0.00 q2: 0.00 q3: -0.70 (angle_z: <Angle 1.54 radians (88.07 degrees)>)> origin_id=21> is_visible=False>
+03-Mar-23 14:20:15 - Sending pickup object request for object=<LightCube object_id=2 battery=78% pose=<Pose <Position x: 215.06 y: 27.60 z: 16.33> <Quaternion q0: 0.06 q1: 0.00 q2: -0.00 q3: 1.00 (angle_z: <Angle 3.02 radians (172.79 degrees)>)> origin_id=21> is_visible=True>
+03-Mar-23 14:20:25 - Exit requested by user
+03-Mar-23 14:20:25 - Shutting down connection
+03-Mar-23 14:20:25 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:20:26 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:20:26 - Found robot id=1
+03-Mar-23 14:20:26 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:20:26 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:20:34 - Shutting down connection
+03-Mar-23 14:20:34 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:20:34 - Exit requested by user
+03-Mar-23 14:20:35 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:20:35 - Found robot id=1
+03-Mar-23 14:20:35 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:20:36 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:20:37 - Exit requested by user
+03-Mar-23 14:20:37 - Shutting down connection
+03-Mar-23 14:20:37 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:20:38 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:20:38 - Found robot id=1
+03-Mar-23 14:20:38 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:20:38 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:20:39 - EOF received on connection
+03-Mar-23 14:20:39 - Aborting connection: Lost connection to the device
+03-Mar-23 14:20:39 - Lost connection to the device: None
+03-Mar-23 14:20:39 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:23:54 - 
+
+03-Mar-23 14:23:55 - Condidion set: 1
+03-Mar-23 14:23:56 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:23:56 - Found robot id=1
+03-Mar-23 14:23:56 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:23:56 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:24:15 - User's choice on clearing the obstacle: yes
+03-Mar-23 14:24:20 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 14:24:20 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 14:24:20 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 14:24:20 - Outcome based on the choices made: Reward
+03-Mar-23 14:24:41 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:24:42 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:24:43 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:24:46 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:27:17 - 
+
+03-Mar-23 14:27:18 - Condidion set: 1
+03-Mar-23 14:27:18 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:27:18 - Found robot id=1
+03-Mar-23 14:27:18 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:27:18 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:27:37 - User's choice on clearing the obstacle: yes
+03-Mar-23 14:27:41 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 14:27:41 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 14:27:41 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 14:27:41 - Outcome based on the choices made: Reward
+03-Mar-23 14:28:42 - Shutting down connection
+03-Mar-23 14:28:42 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:28:43 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:28:43 - Found robot id=1
+03-Mar-23 14:28:43 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:28:43 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:28:52 - Exit requested by user
+03-Mar-23 14:28:52 - Shutting down connection
+03-Mar-23 14:28:52 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:28:53 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:28:53 - Found robot id=1
+03-Mar-23 14:28:53 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:28:53 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:29:16 - Shutting down connection
+03-Mar-23 14:29:16 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:29:17 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:29:17 - Found robot id=1
+03-Mar-23 14:29:17 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:29:17 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:29:32 - Exit requested by user
+03-Mar-23 14:29:32 - Shutting down connection
+03-Mar-23 14:29:32 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:33:42 - 
+
+03-Mar-23 14:33:44 - Condidion set: 1
+03-Mar-23 14:33:44 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:33:44 - Found robot id=1
+03-Mar-23 14:33:44 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:33:44 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:34:02 - User's choice on clearing the obstacle: yes
+03-Mar-23 14:34:07 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 14:34:07 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 14:34:07 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 14:34:07 - Outcome based on the choices made: Reward
+03-Mar-23 14:35:07 - Shutting down connection
+03-Mar-23 14:35:07 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:35:09 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:35:09 - Found robot id=1
+03-Mar-23 14:35:09 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:35:09 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:35:09 - Exit requested by user
+03-Mar-23 14:35:09 - Shutting down connection
+03-Mar-23 14:35:09 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:35:10 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:35:10 - Found robot id=1
+03-Mar-23 14:35:10 - Connected to Android device serial=HA1ETR1G
+03-Mar-23 14:35:10 - Exit requested by user
+03-Mar-23 14:35:10 - Robot id=1 serial=45a29a1c initialized OK
+03-Mar-23 14:35:11 - EOF received on connection
+03-Mar-23 14:35:11 - Aborting connection: Lost connection to the device
+03-Mar-23 14:35:11 - Lost connection to the device: None
+03-Mar-23 14:35:11 - Android serial=HA1ETR1G disconnected.
+03-Mar-23 14:35:12 - No iOS device found running Cozmo: [Errno 10061] Connect call failed ('127.0.0.1', 27015)
+03-Mar-23 14:35:12 - No Android device found running Cozmo: No connected Android devices running Cozmo in SDK mode
+03-Mar-23 14:46:34 - 
+
+03-Mar-23 14:46:36 - Condidion set: 1
+03-Mar-23 14:46:36 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:46:36 - Found robot id=1
+03-Mar-23 14:46:36 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:46:36 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:46:55 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:46:56 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 14:48:34 - 
+
+03-Mar-23 14:48:36 - Condidion set: 1
+03-Mar-23 14:48:36 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:48:36 - Found robot id=1
+03-Mar-23 14:48:36 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:48:36 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:48:43 - Object disconnected: <LightCube object_id=1 battery=Unknown pose=<Pose <Position x: 314.72 y: -107.23 z: 7.76> <Quaternion q0: -0.70 q1: -0.05 q2: -0.04 q3: -0.71 (angle_z: <Angle 1.58 radians (90.61 degrees)>)> origin_id=13> is_visible=True>
+03-Mar-23 14:48:44 - Object connected: <LightCube object_id=1 battery=Unknown pose=<Pose <Position x: 331.25 y: -108.12 z: 18.43> <Quaternion q0: -0.72 q1: -0.00 q2: 0.00 q3: -0.70 (angle_z: <Angle 1.54 radians (88.48 degrees)>)> origin_id=13> is_visible=False>
+03-Mar-23 14:48:56 - User's choice on clearing the obstacle: yes
+03-Mar-23 14:49:01 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 14:49:01 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 14:49:01 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 14:49:01 - Outcome based on the choices made: Reward
+03-Mar-23 14:49:09 - Sending pickup object request for object=<LightCube object_id=1 battery=84% pose=<Pose <Position x: 331.17 y: -107.54 z: 18.81> <Quaternion q0: -0.72 q1: -0.00 q2: 0.00 q3: -0.70 (angle_z: <Angle 1.54 radians (88.45 degrees)>)> origin_id=13> is_visible=True>
+03-Mar-23 14:49:20 - Sending place down here request for object=<LightCube object_id=1 battery=84% pose=<Pose <Position x: 330.08 y: -105.39 z: 17.50> <Quaternion q0: -0.73 q1: 0.00 q2: -0.00 q3: -0.69 (angle_z: <Angle 1.51 radians (86.74 degrees)>)> origin_id=13> is_visible=False>
+03-Mar-23 14:49:52 - Shutting down connection
+03-Mar-23 14:49:52 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 14:49:54 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:49:54 - Found robot id=1
+03-Mar-23 14:49:54 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:49:54 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:49:56 - Exit requested by user
+03-Mar-23 14:49:56 - Shutting down connection
+03-Mar-23 14:49:56 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 14:49:57 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:49:57 - Found robot id=1
+03-Mar-23 14:49:57 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:49:57 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:50:01 - Exit requested by user
+03-Mar-23 14:50:01 - Shutting down connection
+03-Mar-23 14:50:01 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 14:50:02 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:50:02 - Found robot id=1
+03-Mar-23 14:50:02 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:50:02 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:50:13 - Exit requested by user
+03-Mar-23 14:50:13 - Shutting down connection
+03-Mar-23 14:50:13 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 14:51:17 - 
+
+03-Mar-23 14:51:22 - Condidion set: 1
+03-Mar-23 14:51:23 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:51:23 - Found robot id=1
+03-Mar-23 14:51:23 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:51:23 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:51:42 - User's choice on clearing the obstacle: yes
+03-Mar-23 14:51:47 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 14:51:47 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 14:51:47 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 14:51:47 - Outcome based on the choices made: Reward
+03-Mar-23 14:51:54 - Sending pickup object request for object=<LightCube object_id=1 battery=80% pose=<Pose <Position x: 327.11 y: -107.91 z: 18.33> <Quaternion q0: 0.01 q1: 0.00 q2: 0.00 q3: -1.00 (angle_z: <Angle -3.13 radians (-179.40 degrees)>)> origin_id=15> is_visible=True>
+03-Mar-23 14:52:03 - Sending place down here request for object=<LightCube object_id=1 battery=80% pose=<Pose <Position x: 327.08 y: -105.74 z: 17.27> <Quaternion q0: -0.01 q1: 0.00 q2: -0.00 q3: -1.00 (angle_z: <Angle 3.13 radians (179.35 degrees)>)> origin_id=15> is_visible=False>
+03-Mar-23 14:52:34 - Shutting down connection
+03-Mar-23 14:52:34 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 14:52:35 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:52:35 - Found robot id=1
+03-Mar-23 14:52:35 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:52:36 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:52:51 - User's choice on clearing the obstacle: yes
+03-Mar-23 14:52:56 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 14:52:56 - Number of explosives after obstacle 2 (User) 4.0
+03-Mar-23 14:52:56 - Number of explosives after obstacle 2 (Cozmo) 4.0
+03-Mar-23 14:52:56 - Outcome based on the choices made: Reward
+03-Mar-23 14:53:03 - Sending pickup object request for object=<LightCube object_id=2 battery=94% pose=<Pose <Position x: -9.59 y: -330.33 z: 18.80> <Quaternion q0: -0.05 q1: 0.00 q2: 0.00 q3: -1.00 (angle_z: <Angle 3.04 radians (174.37 degrees)>)> origin_id=15> is_visible=True>
+03-Mar-23 14:53:13 - Sending place down here request for object=<LightCube object_id=2 battery=96% pose=<Pose <Position x: -7.40 y: -399.67 z: 18.00> <Quaternion q0: 0.01 q1: -0.01 q2: 0.71 q3: -0.71 (angle_z: <Angle -3.10 radians (-177.61 degrees)>)> origin_id=15> is_visible=False>
+03-Mar-23 14:53:37 - Shutting down connection
+03-Mar-23 14:53:37 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 14:53:38 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:53:38 - Found robot id=1
+03-Mar-23 14:53:38 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:53:38 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:53:53 - Exit requested by user
+03-Mar-23 14:53:53 - Shutting down connection
+03-Mar-23 14:53:53 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 14:53:55 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:53:55 - Found robot id=1
+03-Mar-23 14:53:55 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:53:55 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 14:53:58 - Exit requested by user
+03-Mar-23 14:53:58 - Shutting down connection
+03-Mar-23 14:53:58 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 14:59:42 - 
+
+03-Mar-23 14:59:45 - Condidion set: 1
+03-Mar-23 14:59:45 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 14:59:45 - Found robot id=1
+03-Mar-23 14:59:45 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 14:59:45 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:00:04 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:00:08 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 15:00:08 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 15:00:08 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 15:00:08 - Outcome based on the choices made: Reward
+03-Mar-23 15:00:50 - Shutting down connection
+03-Mar-23 15:00:50 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:02:09 - 
+
+03-Mar-23 15:02:11 - Condidion set: 1
+03-Mar-23 15:02:11 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:02:11 - Found robot id=1
+03-Mar-23 15:02:11 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:02:11 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:02:27 - User's choice on clearing the obstacle: no
+03-Mar-23 15:02:29 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:02:29 - Number of explosives after obstacle 1 (User) 6
+03-Mar-23 15:02:29 - Number of explosives after obstacle 1 (Cozmo) 4
+03-Mar-23 15:02:29 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:03:04 - Shutting down connection
+03-Mar-23 15:03:04 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:07:11 - 
+
+03-Mar-23 15:07:12 - Condidion set: 1
+03-Mar-23 15:07:12 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:07:12 - Found robot id=1
+03-Mar-23 15:07:12 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:07:13 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:07:19 - Exit requested by user
+03-Mar-23 15:07:19 - Shutting down connection
+03-Mar-23 15:07:19 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:07:49 - 
+
+03-Mar-23 15:07:51 - Condidion set: 1
+03-Mar-23 15:07:51 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:07:51 - Found robot id=1
+03-Mar-23 15:07:51 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:07:51 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:08:12 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:08:17 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 15:08:17 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 15:08:17 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 15:08:17 - Outcome based on the choices made: Reward
+03-Mar-23 15:09:13 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:09:17 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 15:09:17 - Number of explosives after obstacle 2 (User) 4.0
+03-Mar-23 15:09:17 - Number of explosives after obstacle 2 (Cozmo) 4.0
+03-Mar-23 15:09:17 - Outcome based on the choices made: Reward
+03-Mar-23 15:10:28 - User's choice on clearing the obstacle: no
+03-Mar-23 15:10:31 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:10:31 - Number of explosives after obstacle 3 (User) 4.0
+03-Mar-23 15:10:31 - Number of explosives after obstacle 3 (Cozmo) 2.0
+03-Mar-23 15:10:31 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:10:58 - Shutting down connection
+03-Mar-23 15:10:58 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:12:32 - 
+
+03-Mar-23 15:12:38 - Condidion set: 2
+03-Mar-23 15:12:39 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:12:39 - Found robot id=1
+03-Mar-23 15:12:39 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:12:39 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:12:57 - User's choice on clearing the obstacle: no
+03-Mar-23 15:13:00 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:13:00 - Number of explosives after obstacle 1 (User) 6
+03-Mar-23 15:13:00 - Number of explosives after obstacle 1 (Cozmo) 4
+03-Mar-23 15:13:00 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:13:49 - User's choice on clearing the obstacle: no
+03-Mar-23 15:13:52 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 15:13:52 - Number of explosives after obstacle 2 (User) 4
+03-Mar-23 15:13:52 - Number of explosives after obstacle 2 (Cozmo) 4
+03-Mar-23 15:13:52 - Outcome based on the choices made: Punishment
+03-Mar-23 15:14:55 - User's choice on clearing the obstacle: no
+03-Mar-23 15:14:57 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 15:14:57 - Number of explosives after obstacle 3 (User) 2
+03-Mar-23 15:14:57 - Number of explosives after obstacle 3 (Cozmo) 4
+03-Mar-23 15:14:57 - Outcome based on the choices made: Punishment
+03-Mar-23 15:15:14 - Shutting down connection
+03-Mar-23 15:15:14 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:18:13 - 
+
+03-Mar-23 15:18:14 - Condidion set: 2
+03-Mar-23 15:18:14 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:18:14 - Found robot id=1
+03-Mar-23 15:18:14 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:18:14 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:18:34 - User's choice on clearing the obstacle: no
+03-Mar-23 15:18:36 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:18:36 - Number of explosives after obstacle 1 (User) 6
+03-Mar-23 15:18:36 - Number of explosives after obstacle 1 (Cozmo) 4
+03-Mar-23 15:18:36 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:19:24 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:19:28 - Choices made for clearing obstacle:- User: Y Cozmo: N
+03-Mar-23 15:19:28 - Number of explosives after obstacle 2 (User) 4
+03-Mar-23 15:19:28 - Number of explosives after obstacle 2 (Cozmo) 4
+03-Mar-23 15:19:28 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:20:57 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 15:20:57 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 15:21:14 - Exit requested by user
+03-Mar-23 15:21:14 - Shutting down connection
+03-Mar-23 15:21:14 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:22:49 - 
+
+03-Mar-23 15:22:51 - Condidion set: 2
+03-Mar-23 15:22:51 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:22:51 - Found robot id=1
+03-Mar-23 15:22:51 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:22:51 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:23:11 - User's choice on clearing the obstacle: no
+03-Mar-23 15:23:13 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:23:13 - Number of explosives after obstacle 1 (User) 6
+03-Mar-23 15:23:13 - Number of explosives after obstacle 1 (Cozmo) 4
+03-Mar-23 15:23:13 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:24:06 - User's choice on clearing the obstacle: no
+03-Mar-23 15:24:08 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 15:24:08 - Number of explosives after obstacle 2 (User) 4
+03-Mar-23 15:24:08 - Number of explosives after obstacle 2 (Cozmo) 4
+03-Mar-23 15:24:08 - Outcome based on the choices made: Punishment
+03-Mar-23 15:25:12 - User's choice on clearing the obstacle: no
+03-Mar-23 15:25:15 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 15:25:15 - Number of explosives after obstacle 3 (User) 2
+03-Mar-23 15:25:15 - Number of explosives after obstacle 3 (Cozmo) 4
+03-Mar-23 15:25:15 - Outcome based on the choices made: Punishment
+03-Mar-23 15:25:32 - Shutting down connection
+03-Mar-23 15:25:32 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:29:33 - 
+
+03-Mar-23 15:29:35 - Condidion set: 2
+03-Mar-23 15:29:35 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:29:35 - Found robot id=1
+03-Mar-23 15:29:35 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:29:35 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:29:54 - User's choice on clearing the obstacle: no
+03-Mar-23 15:29:57 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:29:57 - Number of explosives after obstacle 1 (User) 6
+03-Mar-23 15:29:57 - Number of explosives after obstacle 1 (Cozmo) 4
+03-Mar-23 15:29:57 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:30:48 - User's choice on clearing the obstacle: no
+03-Mar-23 15:30:50 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 15:30:50 - Number of explosives after obstacle 2 (User) 4
+03-Mar-23 15:30:50 - Number of explosives after obstacle 2 (Cozmo) 4
+03-Mar-23 15:30:50 - Outcome based on the choices made: Punishment
+03-Mar-23 15:31:59 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:32:02 - Choices made for clearing obstacle:- User: Y Cozmo: N
+03-Mar-23 15:32:02 - Number of explosives after obstacle 3 (User) 2
+03-Mar-23 15:32:02 - Number of explosives after obstacle 3 (Cozmo) 4
+03-Mar-23 15:32:02 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:32:41 - Shutting down connection
+03-Mar-23 15:32:41 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:34:58 - 
+
+03-Mar-23 15:35:06 - Condidion set: 1
+03-Mar-23 15:35:06 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:35:06 - Found robot id=1
+03-Mar-23 15:35:06 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:35:06 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:35:29 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:35:34 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 15:35:34 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 15:35:34 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 15:35:34 - Outcome based on the choices made: Reward
+03-Mar-23 15:36:30 - User's choice on clearing the obstacle: no
+03-Mar-23 15:36:32 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:36:32 - Number of explosives after obstacle 2 (User) 5.0
+03-Mar-23 15:36:32 - Number of explosives after obstacle 2 (Cozmo) 3.0
+03-Mar-23 15:36:32 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:37:41 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:37:45 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 15:37:45 - Number of explosives after obstacle 3 (User) 4.0
+03-Mar-23 15:37:45 - Number of explosives after obstacle 3 (Cozmo) 2.0
+03-Mar-23 15:37:45 - Outcome based on the choices made: Reward
+03-Mar-23 15:38:32 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 15:38:33 - Robot delocalized - invalidating poses for all objects
+03-Mar-23 15:38:42 - Exit requested by user
+03-Mar-23 15:38:42 - Shutting down connection
+03-Mar-23 15:38:42 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:39:27 - 
+
+03-Mar-23 15:39:30 - Condidion set: 1
+03-Mar-23 15:39:30 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:39:30 - Found robot id=1
+03-Mar-23 15:39:30 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:39:30 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:40:05 - Exit requested by user
+03-Mar-23 15:40:05 - Shutting down connection
+03-Mar-23 15:40:05 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:40:27 - 
+
+03-Mar-23 15:40:28 - Condidion set: 1
+03-Mar-23 15:40:28 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:40:28 - Found robot id=1
+03-Mar-23 15:40:28 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:40:28 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:40:45 - Object disconnected: <LightCube object_id=1 battery=84% pose=<Pose <Position x: 0.00 y: 0.00 z: 0.00> <Quaternion q0: 1.00 q1: 0.00 q2: 0.00 q3: 0.00 (angle_z: <Angle 0.00 radians (0.00 degrees)>)> origin_id=-1> is_visible=False>
+03-Mar-23 15:40:46 - Object connected: <LightCube object_id=1 battery=84% pose=<Pose <Position x: 0.00 y: 0.00 z: 0.00> <Quaternion q0: 1.00 q1: 0.00 q2: 0.00 q3: 0.00 (angle_z: <Angle 0.00 radians (0.00 degrees)>)> origin_id=-1> is_visible=False>
+03-Mar-23 15:40:55 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:40:59 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 15:40:59 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 15:40:59 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 15:40:59 - Outcome based on the choices made: Reward
+03-Mar-23 15:41:40 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:41:45 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 15:41:45 - Number of explosives after obstacle 2 (User) 4.0
+03-Mar-23 15:41:45 - Number of explosives after obstacle 2 (Cozmo) 4.0
+03-Mar-23 15:41:45 - Outcome based on the choices made: Reward
+03-Mar-23 15:43:01 - User's choice on clearing the obstacle: no
+03-Mar-23 15:43:03 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:43:03 - Number of explosives after obstacle 3 (User) 4.0
+03-Mar-23 15:43:03 - Number of explosives after obstacle 3 (Cozmo) 2.0
+03-Mar-23 15:43:03 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:43:34 - Shutting down connection
+03-Mar-23 15:43:34 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:44:16 - 
+
+03-Mar-23 15:44:17 - Condidion set: 2
+03-Mar-23 15:44:18 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:44:18 - Found robot id=1
+03-Mar-23 15:44:18 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:44:18 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:44:38 - User's choice on clearing the obstacle: no
+03-Mar-23 15:44:40 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:44:40 - Number of explosives after obstacle 1 (User) 6
+03-Mar-23 15:44:40 - Number of explosives after obstacle 1 (Cozmo) 4
+03-Mar-23 15:44:40 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:45:32 - User's choice on clearing the obstacle: no
+03-Mar-23 15:45:34 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 15:45:34 - Number of explosives after obstacle 2 (User) 4
+03-Mar-23 15:45:34 - Number of explosives after obstacle 2 (Cozmo) 4
+03-Mar-23 15:45:34 - Outcome based on the choices made: Punishment
+03-Mar-23 15:46:42 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:46:45 - Choices made for clearing obstacle:- User: Y Cozmo: N
+03-Mar-23 15:46:45 - Number of explosives after obstacle 3 (User) 2
+03-Mar-23 15:46:45 - Number of explosives after obstacle 3 (Cozmo) 4
+03-Mar-23 15:46:45 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:47:22 - Shutting down connection
+03-Mar-23 15:47:22 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:50:56 - 
+
+03-Mar-23 15:50:57 - Condidion set: 2
+03-Mar-23 15:50:57 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:50:57 - Found robot id=1
+03-Mar-23 15:50:57 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:50:57 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:51:18 - User's choice on clearing the obstacle: no
+03-Mar-23 15:51:20 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:51:20 - Number of explosives after obstacle 1 (User) 6
+03-Mar-23 15:51:20 - Number of explosives after obstacle 1 (Cozmo) 4
+03-Mar-23 15:51:20 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:52:13 - User's choice on clearing the obstacle: no
+03-Mar-23 15:52:18 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 15:52:18 - Number of explosives after obstacle 2 (User) 4
+03-Mar-23 15:52:18 - Number of explosives after obstacle 2 (Cozmo) 4
+03-Mar-23 15:52:18 - Outcome based on the choices made: Punishment
+03-Mar-23 15:53:30 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:53:32 - Choices made for clearing obstacle:- User: Y Cozmo: N
+03-Mar-23 15:53:32 - Number of explosives after obstacle 3 (User) 2
+03-Mar-23 15:53:32 - Number of explosives after obstacle 3 (Cozmo) 4
+03-Mar-23 15:53:32 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:54:10 - Shutting down connection
+03-Mar-23 15:54:10 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 15:54:55 - 
+
+03-Mar-23 15:54:58 - Condidion set: 2
+03-Mar-23 15:54:58 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 15:54:58 - Found robot id=1
+03-Mar-23 15:54:58 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 15:54:58 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 15:55:32 - User's choice on clearing the obstacle: yes
+03-Mar-23 15:55:37 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 15:55:37 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 15:55:37 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 15:55:37 - Outcome based on the choices made: Reward
+03-Mar-23 15:56:14 - User's choice on clearing the obstacle: no
+03-Mar-23 15:56:16 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 15:56:16 - Number of explosives after obstacle 2 (User) 3.0
+03-Mar-23 15:56:16 - Number of explosives after obstacle 2 (Cozmo) 5.0
+03-Mar-23 15:56:16 - Outcome based on the choices made: Betrayal
+03-Mar-23 15:57:27 - User's choice on clearing the obstacle: no
+03-Mar-23 15:57:32 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 15:57:32 - Number of explosives after obstacle 3 (User) 1.0
+03-Mar-23 15:57:32 - Number of explosives after obstacle 3 (Cozmo) 5.0
+03-Mar-23 15:57:32 - Outcome based on the choices made: Punishment
+03-Mar-23 15:57:49 - Shutting down connection
+03-Mar-23 15:57:49 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 16:04:06 - 
+
+03-Mar-23 16:04:07 - Condidion set: 1
+03-Mar-23 16:04:07 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 16:04:07 - Found robot id=1
+03-Mar-23 16:04:07 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 16:04:07 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 16:05:22 - User's choice on clearing the obstacle: yes
+03-Mar-23 16:05:27 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+03-Mar-23 16:05:27 - Number of explosives after obstacle 1 (User) 5.0
+03-Mar-23 16:05:27 - Number of explosives after obstacle 1 (Cozmo) 5.0
+03-Mar-23 16:05:27 - Outcome based on the choices made: Reward
+03-Mar-23 16:06:47 - User's choice on clearing the obstacle: no
+03-Mar-23 16:06:50 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 16:06:50 - Number of explosives after obstacle 2 (User) 5.0
+03-Mar-23 16:06:50 - Number of explosives after obstacle 2 (Cozmo) 3.0
+03-Mar-23 16:06:50 - Outcome based on the choices made: Betrayal
+03-Mar-23 16:08:49 - User's choice on clearing the obstacle: no
+03-Mar-23 16:08:52 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 16:08:52 - Number of explosives after obstacle 3 (User) 5.0
+03-Mar-23 16:08:52 - Number of explosives after obstacle 3 (Cozmo) 1.0
+03-Mar-23 16:08:52 - Outcome based on the choices made: Betrayal
+03-Mar-23 16:09:24 - Shutting down connection
+03-Mar-23 16:09:24 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 16:09:58 - 
+
+03-Mar-23 16:10:00 - Condidion set: 2
+03-Mar-23 16:10:00 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 16:10:00 - Found robot id=1
+03-Mar-23 16:10:00 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 16:10:01 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 16:10:24 - EOF received on connection
+03-Mar-23 16:10:24 - Aborting connection: Lost connection to the device
+03-Mar-23 16:10:24 - Lost connection to the device: None
+03-Mar-23 16:10:24 - Android serial=HA1EA5MY disconnected.
+03-Mar-23 16:16:08 - Exit requested by user
+03-Mar-23 16:16:31 - 
+
+03-Mar-23 16:16:33 - Condidion set: 2
+03-Mar-23 16:16:33 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+03-Mar-23 16:16:33 - Found robot id=1
+03-Mar-23 16:16:33 - Connected to Android device serial=HA1EA5MY
+03-Mar-23 16:16:33 - Robot id=1 serial=4322abe2 initialized OK
+03-Mar-23 16:16:57 - User's choice on clearing the obstacle: no
+03-Mar-23 16:16:59 - Choices made for clearing obstacle:- User: N Cozmo: Y
+03-Mar-23 16:16:59 - Number of explosives after obstacle 1 (User) 6
+03-Mar-23 16:16:59 - Number of explosives after obstacle 1 (Cozmo) 4
+03-Mar-23 16:16:59 - Outcome based on the choices made: Betrayal
+03-Mar-23 16:17:58 - User's choice on clearing the obstacle: no
+03-Mar-23 16:18:04 - Choices made for clearing obstacle:- User: N Cozmo: N
+03-Mar-23 16:18:04 - Number of explosives after obstacle 2 (User) 4
+03-Mar-23 16:18:04 - Number of explosives after obstacle 2 (Cozmo) 4
+03-Mar-23 16:18:04 - Outcome based on the choices made: Punishment
+03-Mar-23 16:19:15 - User's choice on clearing the obstacle: yes
+03-Mar-23 16:19:17 - Choices made for clearing obstacle:- User: Y Cozmo: N
+03-Mar-23 16:19:17 - Number of explosives after obstacle 3 (User) 2
+03-Mar-23 16:19:17 - Number of explosives after obstacle 3 (Cozmo) 4
+03-Mar-23 16:19:17 - Outcome based on the choices made: Betrayal
+03-Mar-23 16:19:56 - Shutting down connection
+03-Mar-23 16:19:56 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 10:03:46 - 
+
+06-Mar-23 10:03:50 - Condidion set: 1
+06-Mar-23 10:03:57 - No iOS device found running Cozmo: [Errno 10061] Connect call failed ('127.0.0.1', 27015)
+06-Mar-23 10:03:57 - No Android device found running Cozmo: Failed to execute adb command .\adb.exe: Command '['.\\adb.exe', 'devices']' timed out after 5 seconds
+06-Mar-23 10:06:19 - 
+
+06-Mar-23 10:08:35 - Condidion set: 1
+06-Mar-23 10:08:35 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 10:08:35 - Found robot id=1
+06-Mar-23 10:08:35 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 10:08:35 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 10:08:57 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:09:03 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 10:09:03 - Number of explosives after obstacle 1 (User) 5.0
+06-Mar-23 10:09:03 - Number of explosives after obstacle 1 (Cozmo) 5.0
+06-Mar-23 10:09:03 - Outcome based on the choices made: Reward
+06-Mar-23 10:09:44 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:09:49 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 10:09:49 - Number of explosives after obstacle 2 (User) 4.0
+06-Mar-23 10:09:49 - Number of explosives after obstacle 2 (Cozmo) 4.0
+06-Mar-23 10:09:49 - Outcome based on the choices made: Reward
+06-Mar-23 10:10:52 - Object disconnected: <LightCube object_id=2 battery=90% pose=<Pose <Position x: 619.57 y: -301.48 z: 7.57> <Quaternion q0: 0.89 q1: 0.00 q2: -0.00 q3: 0.46 (angle_z: <Angle 0.95 radians (54.22 degrees)>)> origin_id=1> is_visible=False>
+06-Mar-23 10:10:53 - Object connected: <LightCube object_id=2 battery=90% pose=<Pose <Position x: 619.57 y: -301.48 z: 7.57> <Quaternion q0: 0.89 q1: 0.00 q2: -0.00 q3: 0.46 (angle_z: <Angle 0.95 radians (54.22 degrees)>)> origin_id=1> is_visible=False>
+06-Mar-23 10:11:03 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:11:08 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 10:11:08 - Number of explosives after obstacle 3 (User) 3.0
+06-Mar-23 10:11:08 - Number of explosives after obstacle 3 (Cozmo) 3.0
+06-Mar-23 10:11:08 - Outcome based on the choices made: Reward
+06-Mar-23 10:11:46 - Shutting down connection
+06-Mar-23 10:11:46 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 10:14:18 - 
+
+06-Mar-23 10:14:20 - Condidion set: 2
+06-Mar-23 10:14:20 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 10:14:20 - Found robot id=1
+06-Mar-23 10:14:20 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 10:14:20 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 10:14:40 - User's choice on clearing the obstacle: no
+06-Mar-23 10:14:43 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 10:14:43 - Number of explosives after obstacle 1 (User) 4
+06-Mar-23 10:14:43 - Number of explosives after obstacle 1 (Cozmo) 2
+06-Mar-23 10:14:43 - Outcome based on the choices made: Betrayal
+06-Mar-23 10:15:38 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:15:41 - Choices made for clearing obstacle:- User: Y Cozmo: N
+06-Mar-23 10:15:41 - Number of explosives after obstacle 2 (User) 2
+06-Mar-23 10:15:41 - Number of explosives after obstacle 2 (Cozmo) 2
+06-Mar-23 10:15:41 - Outcome based on the choices made: Betrayal
+06-Mar-23 10:16:21 - Object disconnected: <LightCube object_id=1 battery=88% pose=<Pose <Position x: 61.02 y: -324.60 z: 15.94> <Quaternion q0: -1.00 q1: -0.06 q2: 0.00 q3: -0.05 (angle_z: <Angle 0.11 radians (6.08 degrees)>)> origin_id=3> is_visible=True>
+06-Mar-23 10:16:21 - Object connected: <LightCube object_id=1 battery=88% pose=<Pose <Position x: 61.02 y: -324.60 z: 15.94> <Quaternion q0: -1.00 q1: -0.06 q2: 0.00 q3: -0.05 (angle_z: <Angle 0.11 radians (6.08 degrees)>)> origin_id=3> is_visible=True>
+06-Mar-23 10:16:47 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:16:52 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 10:16:52 - Number of explosives after obstacle 3 (User) 0
+06-Mar-23 10:16:52 - Number of explosives after obstacle 3 (Cozmo) 2
+06-Mar-23 10:16:52 - Outcome based on the choices made: Reward
+06-Mar-23 10:17:03 - Object disconnected: <LightCube object_id=1 battery=88% pose=<Pose <Position x: 648.37 y: -528.01 z: 12.90> <Quaternion q0: 0.00 q1: -0.10 q2: 0.99 q3: -0.00 (angle_z: <Angle -2.93 radians (-168.04 degrees)>)> origin_id=3> is_visible=False>
+06-Mar-23 10:17:04 - Object connected: <LightCube object_id=1 battery=88% pose=<Pose <Position x: 648.37 y: -528.01 z: 12.90> <Quaternion q0: 0.00 q1: -0.10 q2: 0.99 q3: -0.00 (angle_z: <Angle -2.93 radians (-168.04 degrees)>)> origin_id=3> is_visible=False>
+06-Mar-23 10:17:19 - Shutting down connection
+06-Mar-23 10:17:19 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 10:19:25 - 
+
+06-Mar-23 10:20:25 - Condidion set: 2
+06-Mar-23 10:20:25 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 10:20:25 - Found robot id=1
+06-Mar-23 10:20:25 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 10:20:26 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 10:20:45 - Exit requested by user
+06-Mar-23 10:20:45 - Shutting down connection
+06-Mar-23 10:20:45 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 10:21:46 - 
+
+06-Mar-23 10:22:07 - Condidion set: 2
+06-Mar-23 10:22:07 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 10:22:07 - Found robot id=1
+06-Mar-23 10:22:07 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 10:22:07 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 10:22:29 - User's choice on clearing the obstacle: no
+06-Mar-23 10:22:31 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 10:22:31 - Number of explosives after obstacle 1 (User) 4
+06-Mar-23 10:22:31 - Number of explosives after obstacle 1 (Cozmo) 2
+06-Mar-23 10:22:31 - Outcome based on the choices made: Betrayal
+06-Mar-23 10:23:46 - User's choice on clearing the obstacle: no
+06-Mar-23 10:23:52 - Choices made for clearing obstacle:- User: N Cozmo: N
+06-Mar-23 10:23:52 - Number of explosives after obstacle 2 (User) 2
+06-Mar-23 10:23:52 - Number of explosives after obstacle 2 (Cozmo) 2
+06-Mar-23 10:23:52 - Outcome based on the choices made: Punishment
+06-Mar-23 10:24:58 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:25:01 - Choices made for clearing obstacle:- User: Y Cozmo: N
+06-Mar-23 10:25:01 - Number of explosives after obstacle 3 (User) 0
+06-Mar-23 10:25:01 - Number of explosives after obstacle 3 (Cozmo) 2
+06-Mar-23 10:25:01 - Outcome based on the choices made: Betrayal
+06-Mar-23 10:25:30 - Shutting down connection
+06-Mar-23 10:25:30 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 10:49:26 - 
+
+06-Mar-23 10:50:23 - Condidion set: 1
+06-Mar-23 10:50:23 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 10:50:23 - Found robot id=1
+06-Mar-23 10:50:23 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 10:50:24 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 10:50:46 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:50:52 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 10:50:52 - Number of explosives after obstacle 1 (User) 3.0
+06-Mar-23 10:50:52 - Number of explosives after obstacle 1 (Cozmo) 3.0
+06-Mar-23 10:50:52 - Outcome based on the choices made: Reward
+06-Mar-23 10:51:31 - User's choice on clearing the obstacle: no
+06-Mar-23 10:51:33 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 10:51:33 - Number of explosives after obstacle 2 (User) 3.0
+06-Mar-23 10:51:33 - Number of explosives after obstacle 2 (Cozmo) 1.0
+06-Mar-23 10:51:33 - Outcome based on the choices made: Betrayal
+06-Mar-23 10:52:42 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:52:48 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 10:52:48 - Number of explosives after obstacle 3 (User) 2.0
+06-Mar-23 10:52:48 - Number of explosives after obstacle 3 (Cozmo) 0.0
+06-Mar-23 10:52:48 - Outcome based on the choices made: Reward
+06-Mar-23 10:53:13 - Shutting down connection
+06-Mar-23 10:53:13 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 10:53:49 - 
+
+06-Mar-23 10:53:50 - Condidion set: 2
+06-Mar-23 10:53:50 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 10:53:50 - Found robot id=1
+06-Mar-23 10:53:50 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 10:53:50 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 10:54:10 - User's choice on clearing the obstacle: no
+06-Mar-23 10:54:12 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 10:54:12 - Number of explosives after obstacle 1 (User) 4
+06-Mar-23 10:54:12 - Number of explosives after obstacle 1 (Cozmo) 2
+06-Mar-23 10:54:12 - Outcome based on the choices made: Betrayal
+06-Mar-23 10:55:04 - User's choice on clearing the obstacle: no
+06-Mar-23 10:55:10 - Choices made for clearing obstacle:- User: N Cozmo: N
+06-Mar-23 10:55:10 - Number of explosives after obstacle 2 (User) 2
+06-Mar-23 10:55:10 - Number of explosives after obstacle 2 (Cozmo) 2
+06-Mar-23 10:55:10 - Outcome based on the choices made: Punishment
+06-Mar-23 10:56:16 - User's choice on clearing the obstacle: yes
+06-Mar-23 10:56:18 - Choices made for clearing obstacle:- User: Y Cozmo: N
+06-Mar-23 10:56:18 - Number of explosives after obstacle 3 (User) 0
+06-Mar-23 10:56:18 - Number of explosives after obstacle 3 (Cozmo) 2
+06-Mar-23 10:56:18 - Outcome based on the choices made: Betrayal
+06-Mar-23 10:56:45 - Shutting down connection
+06-Mar-23 10:56:45 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 10:57:23 - 
+
+06-Mar-23 10:57:27 - Condidion set: 2
+06-Mar-23 10:57:28 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 10:57:28 - Found robot id=1
+06-Mar-23 10:57:28 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 10:57:28 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 10:57:50 - User's choice on clearing the obstacle: no
+06-Mar-23 10:57:52 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 10:57:52 - Number of explosives after obstacle 1 (User) 4
+06-Mar-23 10:57:52 - Number of explosives after obstacle 1 (Cozmo) 2
+06-Mar-23 10:57:52 - Outcome based on the choices made: Betrayal
+06-Mar-23 10:58:45 - User's choice on clearing the obstacle: no
+06-Mar-23 10:58:51 - Choices made for clearing obstacle:- User: N Cozmo: N
+06-Mar-23 10:58:51 - Number of explosives after obstacle 2 (User) 2
+06-Mar-23 10:58:51 - Number of explosives after obstacle 2 (Cozmo) 2
+06-Mar-23 10:58:51 - Outcome based on the choices made: Punishment
+06-Mar-23 10:59:56 - User's choice on clearing the obstacle: no
+06-Mar-23 11:00:01 - Choices made for clearing obstacle:- User: N Cozmo: N
+06-Mar-23 11:00:01 - Number of explosives after obstacle 3 (User) 0
+06-Mar-23 11:00:01 - Number of explosives after obstacle 3 (Cozmo) 2
+06-Mar-23 11:00:01 - Outcome based on the choices made: Punishment
+06-Mar-23 11:00:21 - Shutting down connection
+06-Mar-23 11:00:21 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 11:20:08 - 
+
+06-Mar-23 11:20:09 - Condidion set: 2
+06-Mar-23 11:20:09 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 11:20:09 - Found robot id=1
+06-Mar-23 11:20:09 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 11:20:09 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 11:20:34 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:20:40 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 11:20:40 - Number of explosives after obstacle 1 (User) 5.0
+06-Mar-23 11:20:40 - Number of explosives after obstacle 1 (Cozmo) 5.0
+06-Mar-23 11:20:40 - Outcome based on the choices made: Reward
+06-Mar-23 11:21:26 - User's choice on clearing the obstacle: no
+06-Mar-23 11:21:28 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 11:21:28 - Number of explosives after obstacle 2 (User) 3.0
+06-Mar-23 11:21:28 - Number of explosives after obstacle 2 (Cozmo) 5.0
+06-Mar-23 11:21:28 - Outcome based on the choices made: Betrayal
+06-Mar-23 11:22:41 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:22:43 - Choices made for clearing obstacle:- User: Y Cozmo: N
+06-Mar-23 11:22:43 - Number of explosives after obstacle 3 (User) 1.0
+06-Mar-23 11:22:43 - Number of explosives after obstacle 3 (Cozmo) 5.0
+06-Mar-23 11:22:43 - Outcome based on the choices made: Betrayal
+06-Mar-23 11:23:12 - Shutting down connection
+06-Mar-23 11:23:12 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 11:24:14 - 
+
+06-Mar-23 11:24:15 - Condidion set: 1
+06-Mar-23 11:24:15 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 11:24:15 - Found robot id=1
+06-Mar-23 11:24:15 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 11:24:15 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 11:24:36 - User's choice on clearing the obstacle: no
+06-Mar-23 11:24:39 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 11:24:39 - Number of explosives after obstacle 1 (User) 6
+06-Mar-23 11:24:39 - Number of explosives after obstacle 1 (Cozmo) 4
+06-Mar-23 11:24:39 - Outcome based on the choices made: Betrayal
+06-Mar-23 11:25:33 - User's choice on clearing the obstacle: no
+06-Mar-23 11:25:35 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 11:25:35 - Number of explosives after obstacle 2 (User) 6
+06-Mar-23 11:25:35 - Number of explosives after obstacle 2 (Cozmo) 2
+06-Mar-23 11:25:35 - Outcome based on the choices made: Betrayal
+06-Mar-23 11:26:48 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:26:53 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 11:26:53 - Number of explosives after obstacle 3 (User) 5.0
+06-Mar-23 11:26:53 - Number of explosives after obstacle 3 (Cozmo) 1.0
+06-Mar-23 11:26:53 - Outcome based on the choices made: Reward
+06-Mar-23 11:27:18 - Shutting down connection
+06-Mar-23 11:27:18 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 11:44:19 - 
+
+06-Mar-23 11:44:43 - Condidion set: 1
+06-Mar-23 11:44:43 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 11:44:43 - Found robot id=1
+06-Mar-23 11:44:43 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 11:44:44 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 11:45:05 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:45:11 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 11:45:11 - Number of explosives after obstacle 1 (User) 5.0
+06-Mar-23 11:45:11 - Number of explosives after obstacle 1 (Cozmo) 5.0
+06-Mar-23 11:45:11 - Outcome based on the choices made: Reward
+06-Mar-23 11:45:54 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:46:00 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 11:46:00 - Number of explosives after obstacle 2 (User) 4.0
+06-Mar-23 11:46:00 - Number of explosives after obstacle 2 (Cozmo) 4.0
+06-Mar-23 11:46:00 - Outcome based on the choices made: Reward
+06-Mar-23 11:47:03 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:47:09 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 11:47:09 - Number of explosives after obstacle 3 (User) 3.0
+06-Mar-23 11:47:09 - Number of explosives after obstacle 3 (Cozmo) 3.0
+06-Mar-23 11:47:09 - Outcome based on the choices made: Reward
+06-Mar-23 11:50:02 - 
+
+06-Mar-23 11:50:04 - Condidion set: 2
+06-Mar-23 11:50:04 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 11:50:04 - Found robot id=1
+06-Mar-23 11:50:04 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 11:50:04 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 11:50:25 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:50:31 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 11:50:31 - Number of explosives after obstacle 1 (User) 3.0
+06-Mar-23 11:50:31 - Number of explosives after obstacle 1 (Cozmo) 3.0
+06-Mar-23 11:50:31 - Outcome based on the choices made: Reward
+06-Mar-23 11:51:11 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:51:17 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 11:51:17 - Number of explosives after obstacle 2 (User) 1.0
+06-Mar-23 11:51:17 - Number of explosives after obstacle 2 (Cozmo) 3.0
+06-Mar-23 11:51:17 - Outcome based on the choices made: Reward
+06-Mar-23 11:52:14 - User's choice on clearing the obstacle: yes
+06-Mar-23 11:52:19 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 11:52:19 - Number of explosives after obstacle 3 (User) -1.0
+06-Mar-23 11:52:19 - Number of explosives after obstacle 3 (Cozmo) 3.0
+06-Mar-23 11:52:19 - Outcome based on the choices made: Reward
+06-Mar-23 11:52:42 - Shutting down connection
+06-Mar-23 11:52:42 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 12:02:42 - 
+
+06-Mar-23 12:02:43 - Condidion set: 2
+06-Mar-23 12:02:43 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 12:02:43 - Found robot id=1
+06-Mar-23 12:02:43 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 12:02:43 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 12:03:06 - User's choice on clearing the obstacle: no
+06-Mar-23 12:03:09 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 12:03:09 - Number of explosives after obstacle 1 (User) 4
+06-Mar-23 12:03:09 - Number of explosives after obstacle 1 (Cozmo) 2
+06-Mar-23 12:03:09 - Outcome based on the choices made: Betrayal
+06-Mar-23 12:04:03 - User's choice on clearing the obstacle: yes
+06-Mar-23 12:04:05 - Choices made for clearing obstacle:- User: Y Cozmo: N
+06-Mar-23 12:04:05 - Number of explosives after obstacle 2 (User) 2
+06-Mar-23 12:04:05 - Number of explosives after obstacle 2 (Cozmo) 2
+06-Mar-23 12:04:05 - Outcome based on the choices made: Betrayal
+06-Mar-23 12:05:11 - User's choice on clearing the obstacle: yes
+06-Mar-23 12:05:17 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 12:05:17 - Number of explosives after obstacle 3 (User) 0
+06-Mar-23 12:05:17 - Number of explosives after obstacle 3 (Cozmo) 2
+06-Mar-23 12:05:17 - Outcome based on the choices made: Reward
+06-Mar-23 12:05:42 - Shutting down connection
+06-Mar-23 12:05:42 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 12:07:08 - 
+
+06-Mar-23 12:07:10 - Condidion set: 1
+06-Mar-23 12:07:10 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 12:07:10 - Found robot id=1
+06-Mar-23 12:07:10 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 12:07:10 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 12:07:30 - User's choice on clearing the obstacle: yes
+06-Mar-23 12:07:36 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 12:07:36 - Number of explosives after obstacle 1 (User) 5.0
+06-Mar-23 12:07:36 - Number of explosives after obstacle 1 (Cozmo) 5.0
+06-Mar-23 12:07:36 - Outcome based on the choices made: Reward
+06-Mar-23 12:08:13 - User's choice on clearing the obstacle: yes
+06-Mar-23 12:08:19 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 12:08:19 - Number of explosives after obstacle 2 (User) 4.0
+06-Mar-23 12:08:19 - Number of explosives after obstacle 2 (Cozmo) 4.0
+06-Mar-23 12:08:19 - Outcome based on the choices made: Reward
+06-Mar-23 12:09:15 - User's choice on clearing the obstacle: no
+06-Mar-23 12:09:17 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 12:09:17 - Number of explosives after obstacle 3 (User) 4.0
+06-Mar-23 12:09:17 - Number of explosives after obstacle 3 (Cozmo) 2.0
+06-Mar-23 12:09:17 - Outcome based on the choices made: Betrayal
+06-Mar-23 12:09:51 - Shutting down connection
+06-Mar-23 12:09:51 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 12:10:59 - 
+
+06-Mar-23 12:11:00 - Condidion set: 1
+06-Mar-23 12:11:00 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 12:11:00 - Found robot id=1
+06-Mar-23 12:11:00 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 12:11:00 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 12:11:20 - User's choice on clearing the obstacle: no
+06-Mar-23 12:11:23 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 12:11:23 - Number of explosives after obstacle 1 (User) 6
+06-Mar-23 12:11:23 - Number of explosives after obstacle 1 (Cozmo) 4
+06-Mar-23 12:11:23 - Outcome based on the choices made: Betrayal
+06-Mar-23 12:12:14 - User's choice on clearing the obstacle: no
+06-Mar-23 12:12:16 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 12:12:16 - Number of explosives after obstacle 2 (User) 6
+06-Mar-23 12:12:16 - Number of explosives after obstacle 2 (Cozmo) 2
+06-Mar-23 12:12:16 - Outcome based on the choices made: Betrayal
+06-Mar-23 12:13:24 - User's choice on clearing the obstacle: no
+06-Mar-23 12:13:26 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 12:13:26 - Number of explosives after obstacle 3 (User) 6
+06-Mar-23 12:13:26 - Number of explosives after obstacle 3 (Cozmo) 0
+06-Mar-23 12:13:26 - Outcome based on the choices made: Betrayal
+06-Mar-23 12:13:59 - Shutting down connection
+06-Mar-23 12:13:59 - Android serial=HA1EA5MY disconnected.
+06-Mar-23 12:15:39 - 
+
+06-Mar-23 12:15:42 - Condidion set: 2
+06-Mar-23 12:15:43 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+06-Mar-23 12:15:43 - Found robot id=1
+06-Mar-23 12:15:43 - Connected to Android device serial=HA1EA5MY
+06-Mar-23 12:15:43 - Robot id=1 serial=4322abe2 initialized OK
+06-Mar-23 12:16:03 - User's choice on clearing the obstacle: yes
+06-Mar-23 12:16:09 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 12:16:09 - Number of explosives after obstacle 1 (User) 5.0
+06-Mar-23 12:16:09 - Number of explosives after obstacle 1 (Cozmo) 5.0
+06-Mar-23 12:16:09 - Outcome based on the choices made: Reward
+06-Mar-23 12:16:44 - User's choice on clearing the obstacle: yes
+06-Mar-23 12:16:50 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+06-Mar-23 12:16:50 - Number of explosives after obstacle 2 (User) 3.0
+06-Mar-23 12:16:50 - Number of explosives after obstacle 2 (Cozmo) 5.0
+06-Mar-23 12:16:50 - Outcome based on the choices made: Reward
+06-Mar-23 12:17:48 - User's choice on clearing the obstacle: no
+06-Mar-23 12:17:50 - Choices made for clearing obstacle:- User: N Cozmo: Y
+06-Mar-23 12:17:50 - Number of explosives after obstacle 3 (User) 1.0
+06-Mar-23 12:17:50 - Number of explosives after obstacle 3 (Cozmo) 5.0
+06-Mar-23 12:17:50 - Outcome based on the choices made: Betrayal
+06-Mar-23 12:18:23 - Shutting down connection
+06-Mar-23 12:18:23 - Android serial=HA1EA5MY disconnected.
+07-Mar-23 08:56:33 - 
+
+07-Mar-23 08:56:35 - Condidion set: 1
+07-Mar-23 08:56:35 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+07-Mar-23 08:56:35 - Found robot id=1
+07-Mar-23 08:56:35 - Connected to Android device serial=HA1EA5MY
+07-Mar-23 08:56:35 - Robot id=1 serial=4322abe2 initialized OK
+07-Mar-23 08:56:35 - Shutting down connection
+07-Mar-23 08:56:35 - Android serial=HA1EA5MY disconnected.
+07-Mar-23 08:56:52 - 
+
+07-Mar-23 08:56:53 - Condidion set: 1
+07-Mar-23 08:56:53 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+07-Mar-23 08:56:53 - Found robot id=1
+07-Mar-23 08:56:53 - Connected to Android device serial=HA1EA5MY
+07-Mar-23 08:56:53 - Robot id=1 serial=4322abe2 initialized OK
+07-Mar-23 08:57:12 - User's choice on clearing the obstacle: no
+07-Mar-23 08:57:15 - Choices made for clearing obstacle:- User: N Cozmo: Y
+07-Mar-23 08:57:15 - Number of explosives after obstacle 1 (User) 6
+07-Mar-23 08:57:15 - Number of explosives after obstacle 1 (Cozmo) 4
+07-Mar-23 08:57:15 - Outcome based on the choices made: Betrayal
+07-Mar-23 08:58:08 - User's choice on clearing the obstacle: yes
+07-Mar-23 08:58:14 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+07-Mar-23 08:58:14 - Number of explosives after obstacle 2 (User) 5.0
+07-Mar-23 08:58:14 - Number of explosives after obstacle 2 (Cozmo) 3.0
+07-Mar-23 08:58:14 - Outcome based on the choices made: Reward
+07-Mar-23 08:59:07 - User's choice on clearing the obstacle: yes
+07-Mar-23 08:59:13 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+07-Mar-23 08:59:13 - Number of explosives after obstacle 3 (User) 4.0
+07-Mar-23 08:59:13 - Number of explosives after obstacle 3 (Cozmo) 2.0
+07-Mar-23 08:59:13 - Outcome based on the choices made: Reward
+07-Mar-23 08:59:38 - Shutting down connection
+07-Mar-23 08:59:38 - Android serial=HA1EA5MY disconnected.
+07-Mar-23 09:05:53 - 
+
+07-Mar-23 09:06:04 - Condidion set: 2
+07-Mar-23 09:06:04 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+07-Mar-23 09:06:04 - Found robot id=1
+07-Mar-23 09:06:04 - Connected to Android device serial=HA1EA5MY
+07-Mar-23 09:06:04 - Robot id=1 serial=4322abe2 initialized OK
+07-Mar-23 09:06:25 - User's choice on clearing the obstacle: yes
+07-Mar-23 09:06:31 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+07-Mar-23 09:06:31 - Number of explosives after obstacle 1 (User) 3.0
+07-Mar-23 09:06:31 - Number of explosives after obstacle 1 (Cozmo) 3.0
+07-Mar-23 09:06:31 - Outcome based on the choices made: Reward
+07-Mar-23 09:07:08 - User's choice on clearing the obstacle: no
+07-Mar-23 09:07:11 - Choices made for clearing obstacle:- User: N Cozmo: Y
+07-Mar-23 09:07:11 - Number of explosives after obstacle 2 (User) 1.0
+07-Mar-23 09:07:11 - Number of explosives after obstacle 2 (Cozmo) 3.0
+07-Mar-23 09:07:11 - Outcome based on the choices made: Betrayal
+07-Mar-23 09:08:24 - User's choice on clearing the obstacle: yes
+07-Mar-23 09:08:26 - Choices made for clearing obstacle:- User: Y Cozmo: N
+07-Mar-23 09:08:26 - Number of explosives after obstacle 3 (User) -1.0
+07-Mar-23 09:08:26 - Number of explosives after obstacle 3 (Cozmo) 3.0
+07-Mar-23 09:08:26 - Outcome based on the choices made: Betrayal
+07-Mar-23 09:08:55 - Shutting down connection
+07-Mar-23 09:08:55 - Android serial=HA1EA5MY disconnected.
+07-Mar-23 09:10:12 - 
+
+07-Mar-23 09:10:13 - Condidion set: 1
+07-Mar-23 09:10:13 - App connection established. sdk_version=1.4.10 cozmoclad_version=3.4.0 app_build_version=00003.00004.00000
+07-Mar-23 09:10:13 - Found robot id=1
+07-Mar-23 09:10:13 - Connected to Android device serial=HA1EA5MY
+07-Mar-23 09:10:13 - Robot id=1 serial=4322abe2 initialized OK
+07-Mar-23 09:10:33 - User's choice on clearing the obstacle: yes
+07-Mar-23 09:10:38 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+07-Mar-23 09:10:38 - Number of explosives after obstacle 1 (User) 5.0
+07-Mar-23 09:10:38 - Number of explosives after obstacle 1 (Cozmo) 5.0
+07-Mar-23 09:10:38 - Outcome based on the choices made: Reward
+07-Mar-23 09:11:17 - User's choice on clearing the obstacle: yes
+07-Mar-23 09:11:23 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+07-Mar-23 09:11:23 - Number of explosives after obstacle 2 (User) 4.0
+07-Mar-23 09:11:23 - Number of explosives after obstacle 2 (Cozmo) 4.0
+07-Mar-23 09:11:23 - Outcome based on the choices made: Reward
+07-Mar-23 09:12:20 - User's choice on clearing the obstacle: yes
+07-Mar-23 09:12:26 - Choices made for clearing obstacle:- User: Y Cozmo: Y
+07-Mar-23 09:12:26 - Number of explosives after obstacle 3 (User) 3.0
+07-Mar-23 09:12:26 - Number of explosives after obstacle 3 (Cozmo) 3.0
+07-Mar-23 09:12:26 - Outcome based on the choices made: Reward
+07-Mar-23 09:12:50 - Shutting down connection
+07-Mar-23 09:12:50 - Android serial=HA1EA5MY disconnected.
